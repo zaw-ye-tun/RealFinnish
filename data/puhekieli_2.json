@@ -1,0 +1,512 @@
+[
+  {
+    "puhekieli": "milli",
+    "kirjakieli": "millimetri",
+    "english": "millimeter",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "sentti",
+    "kirjakieli": "senttimetri",
+    "english": "centimeter",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kilo",
+    "kirjakieli": "kilogramma",
+    "english": "kilogram",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "tonni",
+    "kirjakieli": "tonni / tuhat",
+    "english": "ton / thousand",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "mina",
+    "kirjakieli": "minuutti",
+    "english": "minute",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "vartti",
+    "kirjakieli": "15 minuuttia",
+    "english": "quarter of an hour",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "yhelt",
+    "kirjakieli": "yhdeltä",
+    "english": "at one",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kahelt",
+    "kirjakieli": "kahdelta",
+    "english": "at two",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kolmelt",
+    "kirjakieli": "kolmelta",
+    "english": "at three",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "neljält",
+    "kirjakieli": "neljältä",
+    "english": "at four",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "viielt",
+    "kirjakieli": "viideltä",
+    "english": "at five",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kuuelt",
+    "kirjakieli": "kuudelta",
+    "english": "at six",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "seiskalt",
+    "kirjakieli": "seitsemältä",
+    "english": "at seven",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kasilt",
+    "kirjakieli": "kahdeksalta",
+    "english": "at eight",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "ysilt",
+    "kirjakieli": "yhdeksältä",
+    "english": "at nine",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kybält",
+    "kirjakieli": "kymmeneltä",
+    "english": "at ten",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kymppi",
+    "kirjakieli": "kymmenen euroa",
+    "english": "ten euros",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "satanen",
+    "kirjakieli": "sata euroa",
+    "english": "hundred euros",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "käppäillä",
+    "kirjakieli": "kävellä",
+    "english": "to walk / stroll",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "motari",
+    "kirjakieli": "moottoritie",
+    "english": "motorway / freeway",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "lähiö",
+    "kirjakieli": "lähiö",
+    "english": "suburb",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "enkku",
+    "kirjakieli": "englanti",
+    "english": "English language",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "matikka",
+    "kirjakieli": "matematiikka",
+    "english": "mathematics",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "hissa",
+    "kirjakieli": "historia",
+    "english": "history",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "bilsa",
+    "kirjakieli": "biologia",
+    "english": "biology",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kemma",
+    "kirjakieli": "kemia",
+    "english": "chemistry",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "köksä",
+    "kirjakieli": "kotitalous",
+    "english": "home economics",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "filsa",
+    "kirjakieli": "filosofia",
+    "english": "philosophy",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "mantsa",
+    "kirjakieli": "maantieto",
+    "english": "geography",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "äikkä",
+    "kirjakieli": "äidinkieli",
+    "english": "mother tongue / Finnish class",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "liikka",
+    "kirjakieli": "liikunta",
+    "english": "physical education",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "maikka",
+    "kirjakieli": "opettaja",
+    "english": "teacher",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "ope",
+    "kirjakieli": "opettaja",
+    "english": "teacher",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "reksi",
+    "kirjakieli": "rehtori",
+    "english": "principal",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "lukkari",
+    "kirjakieli": "lukujärjestys",
+    "english": "schedule / timetable",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "välkkä",
+    "kirjakieli": "välitunti",
+    "english": "recess / break",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "hypäri",
+    "kirjakieli": "hyppytunti",
+    "english": "free period",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "ruokis",
+    "kirjakieli": "ruokatunti / ruokatauko",
+    "english": "lunch break",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "jenkkifutis",
+    "kirjakieli": "amerikkalainen jalkapallo",
+    "english": "American football",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kiekko",
+    "kirjakieli": "jääkiekko",
+    "english": "ice hockey",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "säbä",
+    "kirjakieli": "salibandy",
+    "english": "floorball",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "sulkis",
+    "kirjakieli": "sulkapallo",
+    "english": "badminton",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "treenata",
+    "kirjakieli": "harjoitella",
+    "english": "to train / work out",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "käydä salilla",
+    "kirjakieli": "käydä kuntosalilla",
+    "english": "to go to the gym",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "käydä lenkillä",
+    "kirjakieli": "juosta / lenkkeillä",
+    "english": "to go jogging",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "ihastus",
+    "kirjakieli": "ihastus",
+    "english": "crush",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "treffit",
+    "kirjakieli": "treffit",
+    "english": "date",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "tuttu",
+    "kirjakieli": "tuttu",
+    "english": "acquaintance",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kaveri",
+    "kirjakieli": "ystävä / kaveri",
+    "english": "friend",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kamu",
+    "kirjakieli": "kaveri",
+    "english": "friend",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "olla messissä",
+    "kirjakieli": "olla mukana",
+    "english": "to be along / join",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "tulla messiin",
+    "kirjakieli": "tulla mukaan",
+    "english": "to come along",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "ottaa messiin",
+    "kirjakieli": "ottaa mukaan",
+    "english": "to bring along",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "piipahtaa",
+    "kirjakieli": "käväistä",
+    "english": "to swing by",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kimppakämppä",
+    "kirjakieli": "yhteisasunto",
+    "english": "shared apartment",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "solu",
+    "kirjakieli": "soluasunto",
+    "english": "shared student apartment",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "vessa",
+    "kirjakieli": "WC / käymälä",
+    "english": "toilet",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "partsi",
+    "kirjakieli": "parveke",
+    "english": "balcony",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "porukat",
+    "kirjakieli": "vanhemmat",
+    "english": "parents",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "rillit",
+    "kirjakieli": "silmälasit",
+    "english": "glasses",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "luuri",
+    "kirjakieli": "puhelin",
+    "english": "phone",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "känny",
+    "kirjakieli": "matkapuhelin",
+    "english": "mobile phone",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kone",
+    "kirjakieli": "tietokone",
+    "english": "computer",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "netti",
+    "kirjakieli": "verkko / internet",
+    "english": "internet",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "olla duunissa",
+    "kirjakieli": "olla töissä",
+    "english": "to work somewhere",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "duunikaveri",
+    "kirjakieli": "työkaveri",
+    "english": "colleague",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "toimari",
+    "kirjakieli": "toimitusjohtaja",
+    "english": "CEO",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "duunata",
+    "kirjakieli": "tehdä / puuhata",
+    "english": "to do / be up to",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "proggis",
+    "kirjakieli": "projekti",
+    "english": "project",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "dedis",
+    "kirjakieli": "määräaika",
+    "english": "deadline",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "vetää",
+    "kirjakieli": "syödä / juoda / esittää",
+    "english": "to eat / drink / perform",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "vetästä",
+    "kirjakieli": "syödä / juoda",
+    "english": "to eat / drink quickly",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "meno",
+    "kirjakieli": "tunnelma / tapahtuma",
+    "english": "vibe / action",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "keikka",
+    "kirjakieli": "konsertti / esitys",
+    "english": "gig / concert",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kalja",
+    "kirjakieli": "olut",
+    "english": "beer",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "tuli",
+    "kirjakieli": "sytytin / tuli",
+    "english": "lighter / fire",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "sammua",
+    "kirjakieli": "menettää tajunta alkoholista",
+    "english": "to pass out",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "semi",
+    "kirjakieli": "melko / aika",
+    "english": "quite / pretty",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "jees",
+    "kirjakieli": "hyvä / sopii",
+    "english": "good / okay",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "heittää läppää",
+    "kirjakieli": "vitsailla",
+    "english": "to joke",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "liftata",
+    "kirjakieli": "liftata / matkustaa kyydillä",
+    "english": "to hitchhike",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "kelata",
+    "kirjakieli": "ajatella",
+    "english": "to think",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "tajuta",
+    "kirjakieli": "ymmärtää",
+    "english": "to understand",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "tapittaa",
+    "kirjakieli": "tuijottaa",
+    "english": "to stare",
+    "category": "general_puhekieli_2"
+  },
+  {
+    "puhekieli": "heittää",
+    "kirjakieli": "lainata / tarjota / arvata",
+    "english": "to lend / offer / guess",
+    "category": "general_puhekieli_2"
+  }
+]

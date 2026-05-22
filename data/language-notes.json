@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Spoken Finnish (puhekieli)",
+    "body": "Everyday spoken Finnish. It can mean spoken forms like mä oon instead of minä olen, and also casual everyday words like telkkari instead of televisio.",
+    "example": "minä olen -> mä oon; televisio -> telkkari",
+    "sourceName": "Kotus",
+    "sourceUrl": "https://kotus.fi/kielenhuolto/yleiskieli-ja-sen-kehitys/yleiskieli-ja-muut-kielimuodot/"
+  },
+  {
+    "title": "Standard Finnish (kirjakieli / yleiskieli)",
+    "body": "The shared standard form used in news, textbooks, instructions, official writing, and careful or formal speech.",
+    "example": "minä olen",
+    "sourceName": "Kotus",
+    "sourceUrl": "https://kotus.fi/kielenhuolto/yleiskieli-ja-sen-kehitys/"
+  },
+  {
+    "title": "Slang",
+    "body": "A more specific informal language used by a group, age group, profession, hobby, or place.",
+    "example": "Stadi = Helsinki",
+    "sourceName": "Suomi-englanti sanakirja",
+    "sourceUrl": "https://www.suomienglantisanakirja.fi/slangi"
+  }
+]

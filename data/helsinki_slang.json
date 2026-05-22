@@ -1,0 +1,788 @@
+[
+  {
+    "puhekieli": "femma",
+    "kirjakieli": "viisi euroa",
+    "english": "five euros",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "vitone",
+    "kirjakieli": "viisi euroa",
+    "english": "five euros",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kybä",
+    "kirjakieli": "kymmenen euroa",
+    "english": "ten euros",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kakskybää",
+    "kirjakieli": "kaksikymmentä euroa",
+    "english": "twenty euros",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kolmekybää",
+    "kirjakieli": "kolmekymmentä euroa",
+    "english": "thirty euros",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "huntti",
+    "kirjakieli": "sata euroa",
+    "english": "hundred euros",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "miltsi",
+    "kirjakieli": "miljoona",
+    "english": "million",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "spora",
+    "kirjakieli": "raitiovaunu",
+    "english": "tram",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "dösä",
+    "kirjakieli": "bussi",
+    "english": "bus",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "tsygä",
+    "kirjakieli": "pyörä",
+    "english": "bike",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "dallata",
+    "kirjakieli": "kävellä",
+    "english": "to walk",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "stoge",
+    "kirjakieli": "juna",
+    "english": "train",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kärry",
+    "kirjakieli": "auto",
+    "english": "car",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "botski",
+    "kirjakieli": "vene / laiva",
+    "english": "boat / ship",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "dösäri",
+    "kirjakieli": "bussipysäkki",
+    "english": "bus stop",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "stadi",
+    "kirjakieli": "Helsinki / keskusta",
+    "english": "Helsinki / downtown",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "skutsi",
+    "kirjakieli": "syrjäinen paikka / metsä",
+    "english": "boonies / forest area",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "lande",
+    "kirjakieli": "maaseutu",
+    "english": "countryside",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Steissi",
+    "kirjakieli": "päärautatieasema",
+    "english": "central railway station",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Kaisis",
+    "kirjakieli": "Kaisaniemi",
+    "english": "Kaisaniemi",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Kruna",
+    "kirjakieli": "Kruunuhaka",
+    "english": "Kruunuhaka",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Skatta",
+    "kirjakieli": "Katajanokka",
+    "english": "Katajanokka",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Hakis",
+    "kirjakieli": "Hakaniemi",
+    "english": "Hakaniemi",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Sörkka",
+    "kirjakieli": "Sörnäinen",
+    "english": "Sörnäinen",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Suokki",
+    "kirjakieli": "Suomenlinna",
+    "english": "Suomenlinna",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Ruohis",
+    "kirjakieli": "Ruoholahti",
+    "english": "Ruoholahti",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Rööperi",
+    "kirjakieli": "Punavuori",
+    "english": "Punavuori",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Hertsika",
+    "kirjakieli": "Herttoniemi",
+    "english": "Herttoniemi",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Vuokki",
+    "kirjakieli": "Vuosaari",
+    "english": "Vuosaari",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Laru",
+    "kirjakieli": "Lauttasaari",
+    "english": "Lauttasaari",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Munkka",
+    "kirjakieli": "Munkkiniemi",
+    "english": "Munkkiniemi",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Itis",
+    "kirjakieli": "Itäkeskus",
+    "english": "Itäkeskus",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Ogeli",
+    "kirjakieli": "Oulunkylä",
+    "english": "Oulunkylä",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Tiksi",
+    "kirjakieli": "Tikkurila",
+    "english": "Tikkurila",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Lepuski",
+    "kirjakieli": "Leppävaara",
+    "english": "Leppävaara",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Espa",
+    "kirjakieli": "Esplanadi",
+    "english": "Esplanade Park",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Kaivari",
+    "kirjakieli": "Kaivopuisto",
+    "english": "Kaivopuisto Park",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Koffari",
+    "kirjakieli": "Sinebrychoffin puisto",
+    "english": "Sinebrychoff Park",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Hietsu",
+    "kirjakieli": "Hietaniemen uimaranta",
+    "english": "Hietaniemi beach",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Mansku",
+    "kirjakieli": "Mannerheimintie",
+    "english": "Mannerheim Road",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Hesari",
+    "kirjakieli": "Helsinginkatu",
+    "english": "Helsinginkatu street",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Flemari",
+    "kirjakieli": "Fleminginkatu",
+    "english": "Fleminginkatu street",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Aleksi",
+    "kirjakieli": "Aleksanterinkatu",
+    "english": "Aleksanterinkatu street",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Roba",
+    "kirjakieli": "Roobertinkatu",
+    "english": "Roobertinkatu street",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Freda",
+    "kirjakieli": "Fredrikinkatu",
+    "english": "Fredrikinkatu street",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Lönkka",
+    "kirjakieli": "Lönnrotinkatu",
+    "english": "Lönnrotinkatu street",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Tennari",
+    "kirjakieli": "Tennispalatsi",
+    "english": "Tennispalatsi",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Stokka",
+    "kirjakieli": "Stockmann",
+    "english": "Stockmann department store",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Lintsi",
+    "kirjakieli": "Linnanmäki",
+    "english": "Linnanmäki amusement park",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Jenkit",
+    "kirjakieli": "Yhdysvallat",
+    "english": "United States",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Britit",
+    "kirjakieli": "Britannia / Iso-Britannia",
+    "english": "United Kingdom / Brits",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Aussit",
+    "kirjakieli": "Australia / australialaiset",
+    "english": "Australia / Australians",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Köpis",
+    "kirjakieli": "Kööpenhamina",
+    "english": "Copenhagen",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Stokis",
+    "kirjakieli": "Tukholma",
+    "english": "Stockholm",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Losi",
+    "kirjakieli": "Los Angeles",
+    "english": "Los Angeles",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Nyki",
+    "kirjakieli": "New York",
+    "english": "New York City",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "heila",
+    "kirjakieli": "kevyt suhde",
+    "english": "fling / romance",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "deitit",
+    "kirjakieli": "treffit",
+    "english": "date",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "treffata",
+    "kirjakieli": "tavata / käydä treffeillä",
+    "english": "to meet / date",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kortsu",
+    "kirjakieli": "kondomi",
+    "english": "condom",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kumi",
+    "kirjakieli": "kondomi",
+    "english": "condom",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "frendi",
+    "kirjakieli": "ystävä / kaveri",
+    "english": "friend",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "bestis",
+    "kirjakieli": "paras ystävä",
+    "english": "best friend",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "chillata",
+    "kirjakieli": "rauhoittua / rentoutua",
+    "english": "to chill",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kyökki",
+    "kirjakieli": "keittiö",
+    "english": "kitchen",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "systeri",
+    "kirjakieli": "sisko",
+    "english": "sister",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "broidi",
+    "kirjakieli": "veli",
+    "english": "brother",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "käty",
+    "kirjakieli": "kämppä tyhjänä",
+    "english": "empty house / parents away",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "blehat",
+    "kirjakieli": "aurinkolasit",
+    "english": "sunglasses",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "arskat",
+    "kirjakieli": "aurinkolasit",
+    "english": "sunglasses",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "lätsä",
+    "kirjakieli": "lakki / hattu",
+    "english": "cap / hat",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "rotsi",
+    "kirjakieli": "takki",
+    "english": "jacket",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "buutsit",
+    "kirjakieli": "saappaat",
+    "english": "boots",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "byysat",
+    "kirjakieli": "housut",
+    "english": "pants / trousers",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "murkina",
+    "kirjakieli": "ruoka",
+    "english": "food",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "sapuska",
+    "kirjakieli": "ruoka",
+    "english": "food",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "hodari",
+    "kirjakieli": "hot dog",
+    "english": "hot dog",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "burgeri",
+    "kirjakieli": "hampurilainen",
+    "english": "burger",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kebu",
+    "kirjakieli": "kebab",
+    "english": "kebab",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "lafka",
+    "kirjakieli": "paikka / klubi / baari",
+    "english": "place / joint / venue",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "Ärrä",
+    "kirjakieli": "R-kioski",
+    "english": "R-kioski",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "räkälä",
+    "kirjakieli": "huono baari",
+    "english": "dive bar",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "terde",
+    "kirjakieli": "terassi",
+    "english": "terrace",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "bilettää",
+    "kirjakieli": "juhlia",
+    "english": "to party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "jorata",
+    "kirjakieli": "tanssia",
+    "english": "to dance",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "reivata",
+    "kirjakieli": "tanssia reiveissä",
+    "english": "to rave",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kemut",
+    "kirjakieli": "juhlat",
+    "english": "party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kekkerit",
+    "kirjakieli": "juhlat",
+    "english": "party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "hipat",
+    "kirjakieli": "juhlat",
+    "english": "party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "bailut",
+    "kirjakieli": "juhlat",
+    "english": "party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "reivit",
+    "kirjakieli": "reivit",
+    "english": "rave party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "etkot",
+    "kirjakieli": "esijuhlat",
+    "english": "pre-party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "jatkot",
+    "kirjakieli": "jälkijuhlat",
+    "english": "after-party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "tuparit",
+    "kirjakieli": "tupaantuliaiset",
+    "english": "housewarming party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "läksärit",
+    "kirjakieli": "läksiäiset",
+    "english": "farewell party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "polttarit",
+    "kirjakieli": "polttarit",
+    "english": "bachelor / bachelorette party",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "poke",
+    "kirjakieli": "portsari",
+    "english": "bouncer",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "portsari",
+    "kirjakieli": "ovimies",
+    "english": "bouncer",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "avekki",
+    "kirjakieli": "avec",
+    "english": "plus one",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "punkku",
+    "kirjakieli": "punaviini",
+    "english": "red wine",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "valkkari",
+    "kirjakieli": "valkoviini",
+    "english": "white wine",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "skumppa",
+    "kirjakieli": "kuohuviini",
+    "english": "sparkling wine",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "kessu",
+    "kirjakieli": "tupakka",
+    "english": "cigarette",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "stenkku",
+    "kirjakieli": "sytkäri",
+    "english": "lighter",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "darra",
+    "kirjakieli": "krapula",
+    "english": "hangover",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "laatta",
+    "kirjakieli": "oksennus",
+    "english": "vomit",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "laatata",
+    "kirjakieli": "oksentaa",
+    "english": "to vomit",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "morkkis",
+    "kirjakieli": "katumus / ahdistus",
+    "english": "remorse / hangxiety",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "meitsi",
+    "kirjakieli": "minä",
+    "english": "me / I",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "meikä",
+    "kirjakieli": "minä",
+    "english": "me / I",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "teitsi",
+    "kirjakieli": "sinä",
+    "english": "you",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "teikä",
+    "kirjakieli": "sinä",
+    "english": "you",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "heittää lipat",
+    "kirjakieli": "kaatua",
+    "english": "to fall",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "pannuttaa",
+    "kirjakieli": "kaatua",
+    "english": "to fall / crash",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "delata",
+    "kirjakieli": "kuolla",
+    "english": "to die",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "jubailla",
+    "kirjakieli": "puhua / jutella",
+    "english": "to chat",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "lätistä",
+    "kirjakieli": "puhua paljon",
+    "english": "to chatter",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "länkyttää",
+    "kirjakieli": "valittaa / puhua ärsyttävästi",
+    "english": "to nag / rant",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "urputtaa",
+    "kirjakieli": "valittaa",
+    "english": "to complain",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "fleksata",
+    "kirjakieli": "leveillä",
+    "english": "to flex / brag",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "dorka",
+    "kirjakieli": "idiootti",
+    "english": "idiot",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "urpo",
+    "kirjakieli": "idiootti",
+    "english": "idiot",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "jeesata",
+    "kirjakieli": "auttaa",
+    "english": "to help",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "jelppiä",
+    "kirjakieli": "auttaa",
+    "english": "to help",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "jelpata",
+    "kirjakieli": "auttaa",
+    "english": "to help",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "dyykata",
+    "kirjakieli": "roskiksesta etsiä",
+    "english": "to dumpster dive",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "bunkata",
+    "kirjakieli": "yöpyä jonkun luona",
+    "english": "to crash at someone’s place",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "hiffata",
+    "kirjakieli": "ymmärtää",
+    "english": "to understand",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "tsiigata",
+    "kirjakieli": "katsoa",
+    "english": "to look",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "piffata",
+    "kirjakieli": "tarjota / maksaa toiselle",
+    "english": "to pay for someone",
+    "category": "helsinki_slang_or_slangy"
+  },
+  {
+    "puhekieli": "pummata",
+    "kirjakieli": "pyytää ilmaiseksi",
+    "english": "to bum / ask for free",
+    "category": "helsinki_slang_or_slangy"
+  }
+]
