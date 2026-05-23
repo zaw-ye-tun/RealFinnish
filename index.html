@@ -20,35 +20,50 @@
   <body>
     <div class="app-shell">
       <header class="app-header">
-        <button class="icon-button is-hidden" id="backButton" type="button" aria-label="Go back">
+        <button class="icon-button is-hidden" id="backButton" type="button" aria-label="Go back" data-i18n-aria-label="backLabel">
           <span aria-hidden="true">‹</span>
         </button>
         <div>
           <p class="eyebrow">RealFinnish</p>
-          <h1 id="screenTitle">Learn real-life Finnish</h1>
+          <h1 id="screenTitle" data-screen-title="home">Learn real-life Finnish</h1>
         </div>
-        <button class="why-button" id="whyButton" type="button">Why?</button>
+        <div class="header-actions">
+          <button class="why-button" id="whyButton" type="button" data-i18n="whyButton">Why?</button>
+          <div class="language-menu">
+            <button
+              class="language-button"
+              id="languageButton"
+              type="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-label="Select language"
+              data-i18n-aria-label="languageSelectLabel"
+            >
+              <span aria-hidden="true">🌐</span>
+            </button>
+            <div class="language-options is-hidden" id="languageOptions" role="menu">
+              <button type="button" data-language-option="en" role="menuitemradio">EN</button>
+              <button type="button" data-language-option="my" role="menuitemradio">မြန်မာ</button>
+            </div>
+          </div>
+        </div>
       </header>
 
       <main>
         <section class="screen is-active" id="homeScreen" aria-labelledby="homeTitle">
           <div class="hero">
-            <p class="eyebrow">Spoken Finnish, without pressure</p>
-            <h2 id="homeTitle">Practice the Finnish people actually use.</h2>
-            <p>
-              Short lessons, calm feedback, and practical words for daily life in Finland.
-            </p>
+            <h2 id="homeTitle" data-i18n="homeTitle">Choose a lesson</h2>
           </div>
 
           <div class="stats-card" id="bestScoreCard" hidden>
-            <span>Best score</span>
+            <span data-i18n="bestScore">Best score</span>
             <strong id="bestScoreText">0/0</strong>
           </div>
 
-          <div class="category-list" id="categoryList" aria-label="Learning topics"></div>
+          <div class="category-list" id="categoryList" aria-label="Learning topics" data-i18n-aria-label="learningTopicsLabel"></div>
 
-          <div class="share-actions home-share-actions" aria-label="Share RealFinnish">
-            <p class="share-label">Share to</p>
+          <div class="share-actions home-share-actions" aria-label="Share RealFinnish" data-i18n-aria-label="shareAppLabel">
+            <p class="share-label" data-i18n="shareTo">Share to</p>
             <button class="share-option" data-share-platform="facebook" type="button">
               <img src="pic/facebook-share.png" alt="" aria-hidden="true" />
               <span class="sr-only">Facebook</span>
@@ -68,12 +83,12 @@
         <section class="screen" id="setupScreen" aria-labelledby="setupTitle">
           <div class="screen-intro">
             <p class="eyebrow" id="availableCount">0 words available</p>
-            <h2 id="setupTitle">How many words today?</h2>
-            <p>Already learned words are skipped automatically.</p>
+            <h2 id="setupTitle" data-i18n="setupTitle">How many words today?</h2>
+            <p data-i18n="setupBody">Already learned words are skipped automatically.</p>
           </div>
 
           <form class="setup-form" id="setupForm">
-            <label for="wordAmountInput">Words to learn</label>
+            <label for="wordAmountInput" data-i18n="wordsToLearn">Words to learn</label>
             <input
               id="wordAmountInput"
               name="wordAmount"
@@ -85,15 +100,15 @@
             />
             <p class="feedback" id="setupFeedback" aria-live="polite"></p>
             <button class="primary-button" id="chooseWordsButton" type="submit">
-              Choose Words
+              <span data-i18n="chooseWords">Choose Words</span>
             </button>
           </form>
 
           <section class="learned-section" aria-labelledby="learnedTitle">
             <div class="section-heading">
               <div>
-                <p class="eyebrow">Saved progress</p>
-                <h3 id="learnedTitle">Learned words</h3>
+                <p class="eyebrow" data-i18n="savedProgress">Saved progress</p>
+                <h3 id="learnedTitle" data-i18n="learnedWords">Learned words</h3>
               </div>
               <span id="learnedCount">0</span>
             </div>
@@ -101,9 +116,9 @@
               <table class="learned-table">
                 <thead>
                   <tr>
-                    <th>Spoken Finnish (puhekieli)</th>
-                    <th>Standard Finnish (kirjakieli)</th>
-                    <th>English (englanti)</th>
+                    <th data-i18n="spokenFinnishHeader">Spoken Finnish (puhekieli)</th>
+                    <th data-i18n="standardFinnishHeader">Standard Finnish (kirjakieli)</th>
+                    <th data-i18n="definitionHeader">English (englanti)</th>
                   </tr>
                 </thead>
                 <tbody id="learnedTableBody"></tbody>
@@ -115,21 +130,21 @@
         <section class="screen" id="studyScreen" aria-labelledby="studyTitle">
           <div class="screen-intro">
             <p class="eyebrow" id="studyCount">100 words</p>
-            <h2 id="studyTitle">Study first, then practice.</h2>
-            <p>Read through the list at your own pace. Start when you feel ready.</p>
+            <h2 id="studyTitle" data-i18n="studyTitle">Study first, then practice.</h2>
+            <p data-i18n="studyBody">Read through the list at your own pace. Start when you feel ready.</p>
           </div>
 
           <div class="word-list" id="wordList"></div>
 
           <div class="bottom-action">
             <button class="primary-button" id="startPracticeButton" type="button">
-              Start Practice
+              <span data-i18n="startPractice">Start Practice</span>
             </button>
           </div>
         </section>
 
         <section class="screen" id="practiceScreen" aria-labelledby="practiceTitle">
-          <div class="progress-wrap" aria-label="Practice progress">
+          <div class="progress-wrap" aria-label="Practice progress" data-i18n-aria-label="practiceProgressLabel">
             <div class="progress-meta">
               <span id="progressText">1/100</span>
               <span id="scoreText">Score 0</span>
@@ -140,13 +155,13 @@
           </div>
 
           <article class="flashcard">
-            <p class="eyebrow">Write the spoken Finnish</p>
+            <p class="eyebrow" data-i18n="writeSpokenFinnish">Write the spoken Finnish</p>
             <h2 id="practiceTitle">koti</h2>
             <p id="englishHint">home</p>
           </article>
 
           <form class="answer-form" id="answerForm" autocomplete="off">
-            <label for="answerInput">Your answer</label>
+            <label for="answerInput" data-i18n="yourAnswer">Your answer</label>
             <input
               id="answerInput"
               name="answer"
@@ -156,25 +171,26 @@
               autocomplete="off"
               spellcheck="false"
               placeholder="Type spoken Finnish..."
+              data-i18n-placeholder="answerPlaceholder"
             />
             <p class="feedback" id="feedbackText" aria-live="polite"></p>
-            <button class="primary-button" id="submitButton" type="submit">Submit</button>
-            <button class="secondary-button is-hidden" id="nextButton" type="button">Next</button>
+            <button class="primary-button" id="submitButton" type="submit" data-i18n="submit">Submit</button>
+            <button class="secondary-button is-hidden" id="nextButton" type="button" data-i18n="next">Next</button>
           </form>
         </section>
 
         <section class="screen" id="resultScreen" aria-labelledby="resultTitle">
           <div class="result-card">
-            <p class="eyebrow">Practice complete</p>
-            <h2 id="resultTitle">You finished the set.</h2>
+            <p class="eyebrow" data-i18n="practiceComplete">Practice complete</p>
+            <h2 id="resultTitle" data-i18n="resultTitle">You finished the set.</h2>
             <strong id="finalScore">0/100</strong>
             <p id="resultMessage">Every round makes the words more familiar.</p>
           </div>
 
           <div class="action-stack">
-            <button class="primary-button" id="playAgainButton" type="button">Practice Again</button>
-            <div class="share-actions" aria-label="Share progress">
-              <p class="share-label">Share to</p>
+            <button class="primary-button" id="playAgainButton" type="button" data-i18n="practiceAgain">Practice Again</button>
+            <div class="share-actions" aria-label="Share progress" data-i18n-aria-label="shareProgressLabel">
+              <p class="share-label" data-i18n="shareTo">Share to</p>
               <button class="share-option" data-share-platform="facebook" type="button">
                 <img src="pic/facebook-share.png" alt="" aria-hidden="true" />
                 <span class="sr-only">Facebook</span>
@@ -189,7 +205,7 @@
               </button>
               <p class="feedback" data-share-feedback aria-live="polite"></p>
             </div>
-            <button class="text-button" id="homeButton" type="button">Back Home</button>
+            <button class="text-button" id="homeButton" type="button" data-i18n="backHome">Back Home</button>
           </div>
         </section>
       </main>
@@ -197,10 +213,10 @@
       <dialog class="notes-dialog" id="notesDialog" aria-labelledby="notesTitle">
         <div class="dialog-header">
           <div>
-            <p class="eyebrow">Language notes</p>
-            <h2 id="notesTitle">Why these labels?</h2>
+            <p class="eyebrow" data-i18n="languageNotes">Language notes</p>
+            <h2 id="notesTitle" data-i18n="notesTitle">Why these labels?</h2>
           </div>
-          <button class="close-button" id="closeNotesButton" type="button" aria-label="Close">
+          <button class="close-button" id="closeNotesButton" type="button" aria-label="Close" data-i18n-aria-label="closeLabel">
             &times;
           </button>
         </div>
@@ -208,7 +224,7 @@
       </dialog>
 
       <footer class="app-footer">
-        <small>© 2026 RealFinnish. All rights reserved.</small>
+        <small data-i18n="footerText">© 2026 RealFinnish. All rights reserved.</small>
       </footer>
     </div>
 

@@ -1,102 +1,802 @@
 [
-  {"puhekieli":"hima","kirjakieli":"koti","english":"home"},
-  {"puhekieli":"kämppä","kirjakieli":"asunto","english":"apartment / flat"},
-  {"puhekieli":"kämppis / kämppäkaveri","kirjakieli":"samassa asunnossa asuva henkilö","english":"roommate / flatmate"},
-  {"puhekieli":"veski","kirjakieli":"vessa","english":"toilet / WC"},
-  {"puhekieli":"olkkari","kirjakieli":"olohuone","english":"living room"},
-  {"puhekieli":"makkari","kirjakieli":"makuuhuone","english":"bedroom"},
-  {"puhekieli":"telkkari","kirjakieli":"televisio","english":"television"},
-  {"puhekieli":"kylppäri","kirjakieli":"kylpyhuone","english":"bathroom"},
-  {"puhekieli":"roskis","kirjakieli":"roskakori / roska-astia","english":"trashcan / recycle bin"},
-  {"puhekieli":"remppa","kirjakieli":"remontti / korjaustyö","english":"renovation"},
-  {"puhekieli":"mesta","kirjakieli":"paikka","english":"place"},
-  {"puhekieli":"safka","kirjakieli":"ruoka","english":"food"},
-  {"puhekieli":"rafla","kirjakieli":"ravintola","english":"restaurant"},
-  {"puhekieli":"kokata","kirjakieli":"laittaa ruokaa","english":"to cook"},
-  {"puhekieli":"hamppari","kirjakieli":"hampurilainen","english":"hamburger"},
-  {"puhekieli":"jälkkäri","kirjakieli":"jälkiruoka","english":"dessert"},
-  {"puhekieli":"jätski","kirjakieli":"jäätelö","english":"ice cream"},
-  {"puhekieli":"karkki","kirjakieli":"karamelli / makeinen","english":"candy / sweet"},
-  {"puhekieli":"purkka","kirjakieli":"purukumi","english":"chewing gum"},
-  {"puhekieli":"limu","kirjakieli":"virvoitusjuoma","english":"soft drink / soda"},
-  {"puhekieli":"bisse","kirjakieli":"olut / kalja","english":"beer"},
-  {"puhekieli":"ryypätä","kirjakieli":"juopotella / juoda alkoholia","english":"to drink alcohol"},
-  {"puhekieli":"känni","kirjakieli":"humalatila / juopumus","english":"drunkenness"},
-  {"puhekieli":"snägäri","kirjakieli":"nakkikioski / grillikioski","english":"food kiosk"},
-  {"puhekieli":"matsi","kirjakieli":"ottelu","english":"match"},
-  {"puhekieli":"futis","kirjakieli":"jalkapallo","english":"football"},
-  {"puhekieli":"lätkä","kirjakieli":"jääkiekko","english":"ice hockey"},
-  {"puhekieli":"koris","kirjakieli":"koripallo","english":"basketball"},
-  {"puhekieli":"fillari","kirjakieli":"polkupyörä / pyörä","english":"bicycle"},
-  {"puhekieli":"snoukka","kirjakieli":"lumilauta","english":"snowboard"},
-  {"puhekieli":"lenkkarit","kirjakieli":"lenkkikengät / lenkkitossut","english":"sneakers / trainers"},
-  {"puhekieli":"treeni","kirjakieli":"harjoitus","english":"training"},
-  {"puhekieli":"kilsa","kirjakieli":"kilometri","english":"kilometer"},
-  {"puhekieli":"jengi","kirjakieli":"joukkue / porukka / ihmiset","english":"team / group / people"},
-  {"puhekieli":"kisa","kirjakieli":"kilpailu","english":"competition"},
-  {"puhekieli":"duuni","kirjakieli":"työ / työpaikka","english":"work / job"},
-  {"puhekieli":"firma","kirjakieli":"yritys","english":"company"},
-  {"puhekieli":"ruokkis","kirjakieli":"ruokatauko","english":"meal break"},
-  {"puhekieli":"pomo","kirjakieli":"johtaja / esimies","english":"boss / manager"},
-  {"puhekieli":"paltsu","kirjakieli":"palaveri","english":"meeting"},
-  {"puhekieli":"neukkari","kirjakieli":"neuvotteluhuone","english":"meeting room"},
-  {"puhekieli":"soppari","kirjakieli":"sopimus","english":"contract / agreement"},
-  {"puhekieli":"diili","kirjakieli":"sopimus","english":"deal / agreement"},
-  {"puhekieli":"vakkari","kirjakieli":"vakituinen","english":"permanent employee"},
-  {"puhekieli":"saikku","kirjakieli":"sairasloma","english":"sick leave"},
-  {"puhekieli":"läppäri","kirjakieli":"kannettava tietokone","english":"laptop"},
-  {"puhekieli":"näppis","kirjakieli":"näppäimistö","english":"keyboard"},
-  {"puhekieli":"bändi","kirjakieli":"yhtye","english":"band"},
-  {"puhekieli":"biisi","kirjakieli":"kappale","english":"song"},
-  {"puhekieli":"mikki","kirjakieli":"mikrofoni","english":"microphone"},
-  {"puhekieli":"bileet","kirjakieli":"juhlat","english":"party"},
-  {"puhekieli":"festarit","kirjakieli":"festivaali","english":"festival"},
-  {"puhekieli":"leffa","kirjakieli":"elokuva","english":"movie"},
-  {"puhekieli":"pölliä","kirjakieli":"varastaa","english":"to steal"},
-  {"puhekieli":"sytkäri","kirjakieli":"sytytin","english":"lighter"},
-  {"puhekieli":"rööki","kirjakieli":"tupakka","english":"cigarette"},
-  {"puhekieli":"kiska","kirjakieli":"kioski","english":"kiosk"},
-  {"puhekieli":"bussi","kirjakieli":"linja-auto","english":"bus"},
-  {"puhekieli":"paatti","kirjakieli":"vene / laiva","english":"boat / ship"},
-  {"puhekieli":"moka","kirjakieli":"virhe","english":"mistake"},
-  {"puhekieli":"venata","kirjakieli":"odottaa","english":"to wait"},
-  {"puhekieli":"sekka","kirjakieli":"sekunti","english":"second"},
-  {"puhekieli":"minsa","kirjakieli":"minuutti","english":"minute"},
-  {"puhekieli":"kiitti","kirjakieli":"kiitos","english":"thanks"},
-  {"puhekieli":"sori","kirjakieli":"anteeksi","english":"sorry"},
-  {"puhekieli":"piuha","kirjakieli":"johto","english":"wire / cable"},
-  {"puhekieli":"appi / äppi","kirjakieli":"sovellus","english":"app"},
-  {"puhekieli":"keli","kirjakieli":"sää","english":"weather"},
-  {"puhekieli":"skipata","kirjakieli":"jättää väliin","english":"to skip"},
-  {"puhekieli":"synttärit","kirjakieli":"syntymäpäivät","english":"birthday"},
-  {"puhekieli":"päikkärit","kirjakieli":"päiväunet","english":"nap"},
-  {"puhekieli":"vika","kirjakieli":"viimeinen","english":"last"},
-  {"puhekieli":"messissä","kirjakieli":"mukana","english":"with / along"},
-  {"puhekieli":"läppä","kirjakieli":"vitsi","english":"joke"},
-  {"puhekieli":"ostari","kirjakieli":"ostoskeskus","english":"shopping mall"},
-  {"puhekieli":"mutsi","kirjakieli":"äiti","english":"mother / mum"},
-  {"puhekieli":"faija","kirjakieli":"isä","english":"father / dad"},
-  {"puhekieli":"intti","kirjakieli":"armeija","english":"army / military"},
-  {"puhekieli":"tsekata","kirjakieli":"katsoa / tarkistaa","english":"to check / look"},
-  {"puhekieli":"moikata","kirjakieli":"tervehtiä","english":"to greet"},
-  {"puhekieli":"terkkuja","kirjakieli":"terveiset","english":"greetings / regards"},
-  {"puhekieli":"alkkarit","kirjakieli":"alushousut","english":"underpants"},
-  {"puhekieli":"kumpparit","kirjakieli":"kumisaappaat","english":"rubber boots"},
-  {"puhekieli":"hengata","kirjakieli":"oleskella","english":"to hang out"},
-  {"puhekieli":"itsari","kirjakieli":"itsemurha","english":"suicide"},
-  {"puhekieli":"fiilis","kirjakieli":"tunne / olo","english":"feeling / vibe"},
-  {"puhekieli":"meininki","kirjakieli":"tunnelma","english":"atmosphere / vibe"},
-  {"puhekieli":"meinata","kirjakieli":"aikoa","english":"to intend / mean"},
-  {"puhekieli":"naama","kirjakieli":"kasvot","english":"face"},
-  {"puhekieli":"maha","kirjakieli":"vatsa","english":"stomach / belly"},
-  {"puhekieli":"mahis","kirjakieli":"mahdollisuus","english":"opportunity / chance"},
-  {"puhekieli":"simppeli","kirjakieli":"yksinkertainen","english":"simple"},
-  {"puhekieli":"voda","kirjakieli":"vesi","english":"water"},
-  {"puhekieli":"notski","kirjakieli":"nuotio","english":"campfire"},
-  {"puhekieli":"hedari","kirjakieli":"päänsärky","english":"headache"},
-  {"puhekieli":"sydäri","kirjakieli":"sydänkohtaus","english":"heart attack"},
-  {"puhekieli":"hauva","kirjakieli":"koira","english":"dog"},
-  {"puhekieli":"katti","kirjakieli":"kissa","english":"cat"},
-  {"puhekieli":"pupu","kirjakieli":"jänis","english":"rabbit / bunny"},
-  {"puhekieli":"amppari","kirjakieli":"ampiainen","english":"bee / wasp"}
+  {
+    "puhekieli": "hima",
+    "kirjakieli": "koti",
+    "english": "home",
+    "definitions": {
+      "my": "အိမ်"
+    }
+  },
+  {
+    "puhekieli": "kämppä",
+    "kirjakieli": "asunto",
+    "english": "apartment / flat",
+    "definitions": {
+      "my": "တိုက်ခန်း / အခန်း"
+    }
+  },
+  {
+    "puhekieli": "kämppis / kämppäkaveri",
+    "kirjakieli": "samassa asunnossa asuva henkilö",
+    "english": "roommate / flatmate",
+    "definitions": {
+      "my": "အခန်းဖော် / အိမ်ဖော်"
+    }
+  },
+  {
+    "puhekieli": "veski",
+    "kirjakieli": "vessa",
+    "english": "toilet / WC",
+    "definitions": {
+      "my": "အိမ်သာ / WC"
+    }
+  },
+  {
+    "puhekieli": "olkkari",
+    "kirjakieli": "olohuone",
+    "english": "living room",
+    "definitions": {
+      "my": "ဧည့်ခန်း"
+    }
+  },
+  {
+    "puhekieli": "makkari",
+    "kirjakieli": "makuuhuone",
+    "english": "bedroom",
+    "definitions": {
+      "my": "အိပ်ခန်း"
+    }
+  },
+  {
+    "puhekieli": "telkkari",
+    "kirjakieli": "televisio",
+    "english": "television",
+    "definitions": {
+      "my": "ရုပ်မြင်သံကြား"
+    }
+  },
+  {
+    "puhekieli": "kylppäri",
+    "kirjakieli": "kylpyhuone",
+    "english": "bathroom",
+    "definitions": {
+      "my": "ရေချိုးခန်း"
+    }
+  },
+  {
+    "puhekieli": "roskis",
+    "kirjakieli": "roskakori / roska-astia",
+    "english": "trashcan / recycle bin",
+    "definitions": {
+      "my": "အမှိုက်ပုံး / ပြန်လည်သုံးစွဲရန် ပုံး"
+    }
+  },
+  {
+    "puhekieli": "remppa",
+    "kirjakieli": "remontti / korjaustyö",
+    "english": "renovation",
+    "definitions": {
+      "my": "ပြုပြင်မွမ်းမံခြင်း"
+    }
+  },
+  {
+    "puhekieli": "mesta",
+    "kirjakieli": "paikka",
+    "english": "place",
+    "definitions": {
+      "my": "နေရာ"
+    }
+  },
+  {
+    "puhekieli": "safka",
+    "kirjakieli": "ruoka",
+    "english": "food",
+    "definitions": {
+      "my": "အစားအစာ"
+    }
+  },
+  {
+    "puhekieli": "rafla",
+    "kirjakieli": "ravintola",
+    "english": "restaurant",
+    "definitions": {
+      "my": "စားသောက်ဆိုင်"
+    }
+  },
+  {
+    "puhekieli": "kokata",
+    "kirjakieli": "laittaa ruokaa",
+    "english": "to cook",
+    "definitions": {
+      "my": "ချက်ပြုတ်ရန်"
+    }
+  },
+  {
+    "puhekieli": "hamppari",
+    "kirjakieli": "hampurilainen",
+    "english": "hamburger",
+    "definitions": {
+      "my": "ဟမ်ဘာဂါ"
+    }
+  },
+  {
+    "puhekieli": "jälkkäri",
+    "kirjakieli": "jälkiruoka",
+    "english": "dessert",
+    "definitions": {
+      "my": "အချိုပွဲ"
+    }
+  },
+  {
+    "puhekieli": "jätski",
+    "kirjakieli": "jäätelö",
+    "english": "ice cream",
+    "definitions": {
+      "my": "ရေခဲမုန့်"
+    }
+  },
+  {
+    "puhekieli": "karkki",
+    "kirjakieli": "karamelli / makeinen",
+    "english": "candy / sweet",
+    "definitions": {
+      "my": "သကြားလုံး / အချို"
+    }
+  },
+  {
+    "puhekieli": "purkka",
+    "kirjakieli": "purukumi",
+    "english": "chewing gum",
+    "definitions": {
+      "my": "ပီကေ"
+    }
+  },
+  {
+    "puhekieli": "limu",
+    "kirjakieli": "virvoitusjuoma",
+    "english": "soft drink / soda",
+    "definitions": {
+      "my": "အချိုရည် / ဆိုဒါ"
+    }
+  },
+  {
+    "puhekieli": "bisse",
+    "kirjakieli": "olut / kalja",
+    "english": "beer",
+    "definitions": {
+      "my": "ဘီယာ"
+    }
+  },
+  {
+    "puhekieli": "ryypätä",
+    "kirjakieli": "juopotella / juoda alkoholia",
+    "english": "to drink alcohol",
+    "definitions": {
+      "my": "အရက်သောက်ရန်"
+    }
+  },
+  {
+    "puhekieli": "känni",
+    "kirjakieli": "humalatila / juopumus",
+    "english": "drunkenness",
+    "definitions": {
+      "my": "မူးယစ်နေခြင်း"
+    }
+  },
+  {
+    "puhekieli": "snägäri",
+    "kirjakieli": "nakkikioski / grillikioski",
+    "english": "food kiosk",
+    "definitions": {
+      "my": "အစားအစာ kiosk ဆိုင်"
+    }
+  },
+  {
+    "puhekieli": "matsi",
+    "kirjakieli": "ottelu",
+    "english": "match",
+    "definitions": {
+      "my": "ပြိုင်ပွဲ"
+    }
+  },
+  {
+    "puhekieli": "futis",
+    "kirjakieli": "jalkapallo",
+    "english": "football",
+    "definitions": {
+      "my": "ဘောလုံး"
+    }
+  },
+  {
+    "puhekieli": "lätkä",
+    "kirjakieli": "jääkiekko",
+    "english": "ice hockey",
+    "definitions": {
+      "my": "ရေခဲဟော်ကီ"
+    }
+  },
+  {
+    "puhekieli": "koris",
+    "kirjakieli": "koripallo",
+    "english": "basketball",
+    "definitions": {
+      "my": "ဘတ်စကက်ဘော"
+    }
+  },
+  {
+    "puhekieli": "fillari",
+    "kirjakieli": "polkupyörä / pyörä",
+    "english": "bicycle",
+    "definitions": {
+      "my": "စက်ဘီး"
+    }
+  },
+  {
+    "puhekieli": "snoukka",
+    "kirjakieli": "lumilauta",
+    "english": "snowboard",
+    "definitions": {
+      "my": "နှင်းစီးဘုတ်"
+    }
+  },
+  {
+    "puhekieli": "lenkkarit",
+    "kirjakieli": "lenkkikengät / lenkkitossut",
+    "english": "sneakers / trainers",
+    "definitions": {
+      "my": "အားကစားဖိနပ်"
+    }
+  },
+  {
+    "puhekieli": "treeni",
+    "kirjakieli": "harjoitus",
+    "english": "training",
+    "definitions": {
+      "my": "လေ့ကျင့်မှု"
+    }
+  },
+  {
+    "puhekieli": "kilsa",
+    "kirjakieli": "kilometri",
+    "english": "kilometer",
+    "definitions": {
+      "my": "ကီလိုမီတာ"
+    }
+  },
+  {
+    "puhekieli": "jengi",
+    "kirjakieli": "joukkue / porukka / ihmiset",
+    "english": "team / group / people",
+    "definitions": {
+      "my": "အသင်း / အုပ်စု / လူများ"
+    }
+  },
+  {
+    "puhekieli": "kisa",
+    "kirjakieli": "kilpailu",
+    "english": "competition",
+    "definitions": {
+      "my": "ပြိုင်ပွဲ"
+    }
+  },
+  {
+    "puhekieli": "duuni",
+    "kirjakieli": "työ / työpaikka",
+    "english": "work / job",
+    "definitions": {
+      "my": "အလုပ်"
+    }
+  },
+  {
+    "puhekieli": "firma",
+    "kirjakieli": "yritys",
+    "english": "company",
+    "definitions": {
+      "my": "ကုမ္ပဏီ"
+    }
+  },
+  {
+    "puhekieli": "ruokkis",
+    "kirjakieli": "ruokatauko",
+    "english": "meal break",
+    "definitions": {
+      "my": "အစားစားနားချိန်"
+    }
+  },
+  {
+    "puhekieli": "pomo",
+    "kirjakieli": "johtaja / esimies",
+    "english": "boss / manager",
+    "definitions": {
+      "my": "အထက်လူကြီး / မန်နေဂျာ"
+    }
+  },
+  {
+    "puhekieli": "paltsu",
+    "kirjakieli": "palaveri",
+    "english": "meeting",
+    "definitions": {
+      "my": "အစည်းအဝေး"
+    }
+  },
+  {
+    "puhekieli": "neukkari",
+    "kirjakieli": "neuvotteluhuone",
+    "english": "meeting room",
+    "definitions": {
+      "my": "အစည်းအဝေးခန်း"
+    }
+  },
+  {
+    "puhekieli": "soppari",
+    "kirjakieli": "sopimus",
+    "english": "contract / agreement",
+    "definitions": {
+      "my": "စာချုပ် / သဘောတူညီချက်"
+    }
+  },
+  {
+    "puhekieli": "diili",
+    "kirjakieli": "sopimus",
+    "english": "deal / agreement",
+    "definitions": {
+      "my": "အပေးအယူ / သဘောတူညီချက်"
+    }
+  },
+  {
+    "puhekieli": "vakkari",
+    "kirjakieli": "vakituinen",
+    "english": "permanent employee",
+    "definitions": {
+      "my": "အမြဲတမ်း ဝန်ထမ်း"
+    }
+  },
+  {
+    "puhekieli": "saikku",
+    "kirjakieli": "sairasloma",
+    "english": "sick leave",
+    "definitions": {
+      "my": "နာမကျန်းခွင့်"
+    }
+  },
+  {
+    "puhekieli": "läppäri",
+    "kirjakieli": "kannettava tietokone",
+    "english": "laptop",
+    "definitions": {
+      "my": "လက်ပ်တော့"
+    }
+  },
+  {
+    "puhekieli": "näppis",
+    "kirjakieli": "näppäimistö",
+    "english": "keyboard",
+    "definitions": {
+      "my": "ကီးဘုတ်"
+    }
+  },
+  {
+    "puhekieli": "bändi",
+    "kirjakieli": "yhtye",
+    "english": "band",
+    "definitions": {
+      "my": "တေးဂီတအဖွဲ့"
+    }
+  },
+  {
+    "puhekieli": "biisi",
+    "kirjakieli": "kappale",
+    "english": "song",
+    "definitions": {
+      "my": "သီချင်း"
+    }
+  },
+  {
+    "puhekieli": "mikki",
+    "kirjakieli": "mikrofoni",
+    "english": "microphone",
+    "definitions": {
+      "my": "မိုက်ခရိုဖုန်း"
+    }
+  },
+  {
+    "puhekieli": "bileet",
+    "kirjakieli": "juhlat",
+    "english": "party",
+    "definitions": {
+      "my": "ပါတီ / ပွဲ"
+    }
+  },
+  {
+    "puhekieli": "festarit",
+    "kirjakieli": "festivaali",
+    "english": "festival",
+    "definitions": {
+      "my": "ပွဲတော်"
+    }
+  },
+  {
+    "puhekieli": "leffa",
+    "kirjakieli": "elokuva",
+    "english": "movie",
+    "definitions": {
+      "my": "ရုပ်ရှင်"
+    }
+  },
+  {
+    "puhekieli": "pölliä",
+    "kirjakieli": "varastaa",
+    "english": "to steal",
+    "definitions": {
+      "my": "ခိုးရန်"
+    }
+  },
+  {
+    "puhekieli": "sytkäri",
+    "kirjakieli": "sytytin",
+    "english": "lighter",
+    "definitions": {
+      "my": "မီးခြစ်"
+    }
+  },
+  {
+    "puhekieli": "rööki",
+    "kirjakieli": "tupakka",
+    "english": "cigarette",
+    "definitions": {
+      "my": "စီးကရက်"
+    }
+  },
+  {
+    "puhekieli": "kiska",
+    "kirjakieli": "kioski",
+    "english": "kiosk",
+    "definitions": {
+      "my": "kiosk ဆိုင်"
+    }
+  },
+  {
+    "puhekieli": "bussi",
+    "kirjakieli": "linja-auto",
+    "english": "bus",
+    "definitions": {
+      "my": "ဘတ်စ်ကား"
+    }
+  },
+  {
+    "puhekieli": "paatti",
+    "kirjakieli": "vene / laiva",
+    "english": "boat / ship",
+    "definitions": {
+      "my": "လှေ / သင်္ဘော"
+    }
+  },
+  {
+    "puhekieli": "moka",
+    "kirjakieli": "virhe",
+    "english": "mistake",
+    "definitions": {
+      "my": "အမှား"
+    }
+  },
+  {
+    "puhekieli": "venata",
+    "kirjakieli": "odottaa",
+    "english": "to wait",
+    "definitions": {
+      "my": "စောင့်ရန်"
+    }
+  },
+  {
+    "puhekieli": "sekka",
+    "kirjakieli": "sekunti",
+    "english": "second",
+    "definitions": {
+      "my": "စက္ကန့်"
+    }
+  },
+  {
+    "puhekieli": "minsa",
+    "kirjakieli": "minuutti",
+    "english": "minute",
+    "definitions": {
+      "my": "မိနစ်"
+    }
+  },
+  {
+    "puhekieli": "kiitti",
+    "kirjakieli": "kiitos",
+    "english": "thanks",
+    "definitions": {
+      "my": "ကျေးဇူးတင်ပါတယ်"
+    }
+  },
+  {
+    "puhekieli": "sori",
+    "kirjakieli": "anteeksi",
+    "english": "sorry",
+    "definitions": {
+      "my": "တောင်းပန်ပါတယ်"
+    }
+  },
+  {
+    "puhekieli": "piuha",
+    "kirjakieli": "johto",
+    "english": "wire / cable",
+    "definitions": {
+      "my": "ဝါယာကြိုး / ကေဘယ်ကြိုး"
+    }
+  },
+  {
+    "puhekieli": "appi / äppi",
+    "kirjakieli": "sovellus",
+    "english": "app / application",
+    "definitions": {
+      "my": "app / အက်ပ်"
+    }
+  },
+  {
+    "puhekieli": "keli",
+    "kirjakieli": "sää",
+    "english": "weather",
+    "definitions": {
+      "my": "ရာသီဥတု"
+    }
+  },
+  {
+    "puhekieli": "skipata",
+    "kirjakieli": "jättää väliin",
+    "english": "to skip",
+    "definitions": {
+      "my": "ကျော်ရန်"
+    }
+  },
+  {
+    "puhekieli": "synttärit",
+    "kirjakieli": "syntymäpäivät",
+    "english": "birthday",
+    "definitions": {
+      "my": "မွေးနေ့"
+    }
+  },
+  {
+    "puhekieli": "päikkärit",
+    "kirjakieli": "päiväunet",
+    "english": "nap",
+    "definitions": {
+      "my": "နေ့ခင်းအိပ်စက်ခြင်း"
+    }
+  },
+  {
+    "puhekieli": "vika",
+    "kirjakieli": "viimeinen",
+    "english": "last",
+    "definitions": {
+      "my": "နောက်ဆုံး"
+    }
+  },
+  {
+    "puhekieli": "messissä",
+    "kirjakieli": "mukana",
+    "english": "with / along",
+    "definitions": {
+      "my": "အတူ / ပါဝင်၍"
+    }
+  },
+  {
+    "puhekieli": "läppä",
+    "kirjakieli": "vitsi",
+    "english": "joke",
+    "definitions": {
+      "my": "ဟာသ"
+    }
+  },
+  {
+    "puhekieli": "ostari",
+    "kirjakieli": "ostoskeskus",
+    "english": "shopping mall",
+    "definitions": {
+      "my": "ဈေးဝယ်စင်တာ"
+    }
+  },
+  {
+    "puhekieli": "mutsi",
+    "kirjakieli": "äiti",
+    "english": "mother / mum",
+    "definitions": {
+      "my": "အမေ"
+    }
+  },
+  {
+    "puhekieli": "faija",
+    "kirjakieli": "isä",
+    "english": "father / dad",
+    "definitions": {
+      "my": "အဖေ"
+    }
+  },
+  {
+    "puhekieli": "intti",
+    "kirjakieli": "armeija",
+    "english": "army / military",
+    "definitions": {
+      "my": "စစ်တပ်"
+    }
+  },
+  {
+    "puhekieli": "tsekata",
+    "kirjakieli": "katsoa / tarkistaa",
+    "english": "to check / look",
+    "definitions": {
+      "my": "စစ်ရန် / ကြည့်ရန်"
+    }
+  },
+  {
+    "puhekieli": "moikata",
+    "kirjakieli": "tervehtiä",
+    "english": "to greet",
+    "definitions": {
+      "my": "နှုတ်ဆက်ရန်"
+    }
+  },
+  {
+    "puhekieli": "terkkuja",
+    "kirjakieli": "terveiset",
+    "english": "greetings / regards",
+    "definitions": {
+      "my": "နှုတ်ဆက်စကား"
+    }
+  },
+  {
+    "puhekieli": "alkkarit",
+    "kirjakieli": "alushousut",
+    "english": "underpants",
+    "definitions": {
+      "my": "အတွင်းခံဘောင်းဘီ"
+    }
+  },
+  {
+    "puhekieli": "kumpparit",
+    "kirjakieli": "kumisaappaat",
+    "english": "rubber boots",
+    "definitions": {
+      "my": "ရော်ဘာဘွတ်ဖိနပ်"
+    }
+  },
+  {
+    "puhekieli": "hengata",
+    "kirjakieli": "oleskella",
+    "english": "to hang out",
+    "definitions": {
+      "my": "အတူတူ အချိန်ဖြုန်းရန်"
+    }
+  },
+  {
+    "puhekieli": "itsari",
+    "kirjakieli": "itsemurha",
+    "english": "suicide",
+    "definitions": {
+      "my": "ကိုယ့်ကိုယ်ကို သတ်သေခြင်း"
+    }
+  },
+  {
+    "puhekieli": "fiilis",
+    "kirjakieli": "tunne / olo",
+    "english": "feeling / vibe",
+    "definitions": {
+      "my": "ခံစားချက် / အငွေ့အသက်"
+    }
+  },
+  {
+    "puhekieli": "meininki",
+    "kirjakieli": "tunnelma",
+    "english": "atmosphere / vibe",
+    "definitions": {
+      "my": "ပတ်ဝန်းကျင်အငွေ့အသက်"
+    }
+  },
+  {
+    "puhekieli": "meinata",
+    "kirjakieli": "aikoa",
+    "english": "to intend / mean",
+    "definitions": {
+      "my": "ရည်ရွယ်ရန် / ဆိုလိုရန်"
+    }
+  },
+  {
+    "puhekieli": "naama",
+    "kirjakieli": "kasvot",
+    "english": "face",
+    "definitions": {
+      "my": "မျက်နှာ"
+    }
+  },
+  {
+    "puhekieli": "maha",
+    "kirjakieli": "vatsa",
+    "english": "stomach / belly",
+    "definitions": {
+      "my": "ဝမ်းဗိုက်"
+    }
+  },
+  {
+    "puhekieli": "mahis",
+    "kirjakieli": "mahdollisuus",
+    "english": "opportunity / chance",
+    "definitions": {
+      "my": "အခွင့်အရေး"
+    }
+  },
+  {
+    "puhekieli": "simppeli",
+    "kirjakieli": "yksinkertainen",
+    "english": "simple",
+    "definitions": {
+      "my": "ရိုးရှင်းသော"
+    }
+  },
+  {
+    "puhekieli": "voda",
+    "kirjakieli": "vesi",
+    "english": "water",
+    "definitions": {
+      "my": "ရေ"
+    }
+  },
+  {
+    "puhekieli": "notski",
+    "kirjakieli": "nuotio",
+    "english": "campfire",
+    "definitions": {
+      "my": "campfire/ တောတွင်းစခန်းမီးပုံ"
+    }
+  },
+  {
+    "puhekieli": "hedari",
+    "kirjakieli": "päänsärky",
+    "english": "headache",
+    "definitions": {
+      "my": "ခေါင်းကိုက်ခြင်း"
+    }
+  },
+  {
+    "puhekieli": "sydäri",
+    "kirjakieli": "sydänkohtaus",
+    "english": "heart attack",
+    "definitions": {
+      "my": "နှလုံးရုတ်တရက်ဖောက်ခြင်း"
+    }
+  },
+  {
+    "puhekieli": "hauva",
+    "kirjakieli": "koira",
+    "english": "dog",
+    "definitions": {
+      "my": "ခွေး"
+    }
+  },
+  {
+    "puhekieli": "katti",
+    "kirjakieli": "kissa",
+    "english": "cat",
+    "definitions": {
+      "my": "ကြောင်"
+    }
+  },
+  {
+    "puhekieli": "pupu",
+    "kirjakieli": "jänis",
+    "english": "rabbit / bunny",
+    "definitions": {
+      "my": "ယုန်"
+    }
+  },
+  {
+    "puhekieli": "amppari",
+    "kirjakieli": "ampiainen",
+    "english": "bee / wasp",
+    "definitions": {
+      "my": "ပျား / နကျယ်ကောင်"
+    }
+  }
 ]

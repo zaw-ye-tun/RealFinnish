@@ -3,510 +3,765 @@
     "puhekieli": "milli",
     "kirjakieli": "millimetri",
     "english": "millimeter",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "မီလီမီတာ"
+    }
   },
   {
     "puhekieli": "sentti",
     "kirjakieli": "senttimetri",
     "english": "centimeter",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "စင်တီမီတာ"
+    }
   },
   {
     "puhekieli": "kilo",
     "kirjakieli": "kilogramma",
     "english": "kilogram",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ကီလိုဂရမ်"
+    }
   },
   {
     "puhekieli": "tonni",
     "kirjakieli": "tonni / tuhat",
-    "english": "ton / thousand",
-    "category": "general_puhekieli_2"
+    "english": "thousand",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": " တစ်ထောင်"
+    }
   },
   {
     "puhekieli": "mina",
     "kirjakieli": "minuutti",
     "english": "minute",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "မိနစ်"
+    }
   },
   {
     "puhekieli": "vartti",
     "kirjakieli": "15 minuuttia",
     "english": "quarter of an hour",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "တစ်နာရီ၏ လေးပုံတစ်ပုံ"
+    }
   },
   {
     "puhekieli": "yhelt",
     "kirjakieli": "yhdeltä",
-    "english": "at one",
-    "category": "general_puhekieli_2"
+    "english": "at one o’clock",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "တစ်နာရီမှာ"
+    }
   },
   {
     "puhekieli": "kahelt",
     "kirjakieli": "kahdelta",
-    "english": "at two",
-    "category": "general_puhekieli_2"
+    "english": "at two o’clock",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "နှစ်နာရီမှာ"
+    }
   },
   {
     "puhekieli": "kolmelt",
     "kirjakieli": "kolmelta",
-    "english": "at three",
-    "category": "general_puhekieli_2"
+    "english": "at three o’clock",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "သုံးနာရီမှာ"
+    }
   },
   {
     "puhekieli": "neljält",
     "kirjakieli": "neljältä",
-    "english": "at four",
-    "category": "general_puhekieli_2"
+    "english": "at four o'clock",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "လေးနာရီမှာ"
+    }
   },
   {
     "puhekieli": "viielt",
     "kirjakieli": "viideltä",
     "english": "at five",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ငါးနာရီမှာ"
+    }
   },
   {
     "puhekieli": "kuuelt",
     "kirjakieli": "kuudelta",
-    "english": "at six",
-    "category": "general_puhekieli_2"
+    "english": "at six o’clock",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ခြောက်နာရီမှာ"
+    }
   },
   {
     "puhekieli": "seiskalt",
     "kirjakieli": "seitsemältä",
-    "english": "at seven",
-    "category": "general_puhekieli_2"
+    "english": "at seven o’clock",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ခုနစ်နာရီမှာ"
+    }
   },
   {
     "puhekieli": "kasilt",
     "kirjakieli": "kahdeksalta",
-    "english": "at eight",
-    "category": "general_puhekieli_2"
+    "english": "at eight o’clock",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ရှစ်နာရီမှာ"
+    }
   },
   {
     "puhekieli": "ysilt",
     "kirjakieli": "yhdeksältä",
-    "english": "at nine",
-    "category": "general_puhekieli_2"
+    "english": "at nine o’clock",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ကိုးနာရီမှာ"
+    }
   },
   {
     "puhekieli": "kybält",
     "kirjakieli": "kymmeneltä",
-    "english": "at ten",
-    "category": "general_puhekieli_2"
+    "english": "at ten o’clock",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ဆယ်နာရီမှာ"
+    }
   },
   {
     "puhekieli": "kymppi",
     "kirjakieli": "kymmenen euroa",
     "english": "ten euros",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ယူရို တစ်ဆယ်"
+    }
   },
   {
     "puhekieli": "satanen",
     "kirjakieli": "sata euroa",
     "english": "hundred euros",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ယူရို တစ်ရာ"
+    }
   },
   {
     "puhekieli": "käppäillä",
     "kirjakieli": "kävellä",
     "english": "to walk / stroll",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "လမ်းလျှောက်ရန် / အေးအေးဆေးဆေး လမ်းလျှောက်ရန်"
+    }
   },
   {
     "puhekieli": "motari",
     "kirjakieli": "moottoritie",
     "english": "motorway / freeway",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အမြန်လမ်း"
+    }
   },
   {
     "puhekieli": "lähiö",
     "kirjakieli": "lähiö",
     "english": "suburb",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "မြို့ပြင်ရပ်ကွက်"
+    }
   },
   {
     "puhekieli": "enkku",
     "kirjakieli": "englanti",
     "english": "English language",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အင်္ဂလိပ်ဘာသာ"
+    }
   },
   {
     "puhekieli": "matikka",
     "kirjakieli": "matematiikka",
     "english": "mathematics",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "သင်္ချာ"
+    }
   },
   {
     "puhekieli": "hissa",
     "kirjakieli": "historia",
     "english": "history",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "သမိုင်း"
+    }
   },
   {
     "puhekieli": "bilsa",
     "kirjakieli": "biologia",
     "english": "biology",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ဇီဝဗေဒ"
+    }
   },
   {
     "puhekieli": "kemma",
     "kirjakieli": "kemia",
     "english": "chemistry",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ဓာတုဗေဒ"
+    }
   },
   {
     "puhekieli": "köksä",
     "kirjakieli": "kotitalous",
     "english": "home economics",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အိမ်တွင်းစီးပွားရေး / အိမ်မှုသင်ခန်းစာ"
+    }
   },
   {
     "puhekieli": "filsa",
     "kirjakieli": "filosofia",
     "english": "philosophy",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ဒဿနိကဗေဒ"
+    }
   },
   {
     "puhekieli": "mantsa",
     "kirjakieli": "maantieto",
     "english": "geography",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ပထဝီဝင်"
+    }
   },
   {
     "puhekieli": "äikkä",
     "kirjakieli": "äidinkieli",
     "english": "mother tongue / Finnish class",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "မိခင်ဘာသာ / Finnish ဘာသာအတန်း"
+    }
   },
   {
     "puhekieli": "liikka",
     "kirjakieli": "liikunta",
     "english": "physical education",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ကိုယ်ကာယပညာ"
+    }
   },
   {
     "puhekieli": "maikka",
     "kirjakieli": "opettaja",
     "english": "teacher",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ဆရာ / ဆရာမ"
+    }
   },
   {
     "puhekieli": "ope",
     "kirjakieli": "opettaja",
     "english": "teacher",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ဆရာ / ဆရာမ"
+    }
   },
   {
     "puhekieli": "reksi",
     "kirjakieli": "rehtori",
     "english": "principal",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ကျောင်းအုပ်"
+    }
   },
   {
     "puhekieli": "lukkari",
     "kirjakieli": "lukujärjestys",
     "english": "schedule / timetable",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အချိန်ဇယား"
+    }
   },
   {
     "puhekieli": "välkkä",
     "kirjakieli": "välitunti",
     "english": "recess / break",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "နားချိန်"
+    }
   },
   {
     "puhekieli": "hypäri",
     "kirjakieli": "hyppytunti",
     "english": "free period",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အလွတ်ချိန်"
+    }
   },
   {
     "puhekieli": "ruokis",
     "kirjakieli": "ruokatunti / ruokatauko",
     "english": "lunch break",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "နေ့လယ်စာနားချိန်"
+    }
   },
   {
     "puhekieli": "jenkkifutis",
     "kirjakieli": "amerikkalainen jalkapallo",
     "english": "American football",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အမေရိကန်ဘောလုံး"
+    }
   },
   {
     "puhekieli": "kiekko",
     "kirjakieli": "jääkiekko",
     "english": "ice hockey",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ရေခဲဟော်ကီ"
+    }
   },
   {
     "puhekieli": "säbä",
     "kirjakieli": "salibandy",
-    "english": "floorball",
-    "category": "general_puhekieli_2"
+    "english": "floorball/floor hockey",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "floor hockey အားကစား"
+    }
   },
   {
     "puhekieli": "sulkis",
     "kirjakieli": "sulkapallo",
     "english": "badminton",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ကြက်တောင်ရိုက်"
+    }
   },
   {
     "puhekieli": "treenata",
     "kirjakieli": "harjoitella",
     "english": "to train / work out",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "လေ့ကျင့်ရန် / အားကစားလုပ်ရန်"
+    }
   },
   {
     "puhekieli": "käydä salilla",
     "kirjakieli": "käydä kuntosalilla",
     "english": "to go to the gym",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "gym သို့ သွားရန်"
+    }
   },
   {
     "puhekieli": "käydä lenkillä",
     "kirjakieli": "juosta / lenkkeillä",
     "english": "to go jogging",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အပြေးလေ့ကျင့်ရန်"
+    }
   },
   {
     "puhekieli": "ihastus",
     "kirjakieli": "ihastus",
     "english": "crush",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "crush / စိတ်ဝင်စားနေသူ"
+    }
   },
   {
     "puhekieli": "treffit",
     "kirjakieli": "treffit",
     "english": "date",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ချိန်းတွေ့ခြင်း"
+    }
   },
   {
     "puhekieli": "tuttu",
     "kirjakieli": "tuttu",
     "english": "acquaintance",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အသိအကျွမ်း"
+    }
   },
   {
     "puhekieli": "kaveri",
     "kirjakieli": "ystävä / kaveri",
     "english": "friend",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "သူငယ်ချင်း"
+    }
   },
   {
     "puhekieli": "kamu",
     "kirjakieli": "kaveri",
     "english": "friend",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "သူငယ်ချင်း"
+    }
   },
   {
     "puhekieli": "olla messissä",
     "kirjakieli": "olla mukana",
     "english": "to be along / join",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အတူပါရန် / ပါဝင်ရန်"
+    }
   },
   {
     "puhekieli": "tulla messiin",
     "kirjakieli": "tulla mukaan",
     "english": "to come along",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အတူလိုက်လာရန်"
+    }
   },
   {
     "puhekieli": "ottaa messiin",
     "kirjakieli": "ottaa mukaan",
     "english": "to bring along",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အတူယူလာရန်"
+    }
   },
   {
     "puhekieli": "piipahtaa",
     "kirjakieli": "käväistä",
     "english": "to swing by",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ခဏဝင်သွားရန် / ခဏဝင်လည်ရန်"
+    }
   },
   {
     "puhekieli": "kimppakämppä",
     "kirjakieli": "yhteisasunto",
     "english": "shared apartment",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "မျှဝေငှားနေသော တိုက်ခန်း"
+    }
   },
   {
     "puhekieli": "solu",
     "kirjakieli": "soluasunto",
     "english": "shared student apartment",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ကျောင်းသားများ မျှဝေငှားနေသော အခန်း"
+    }
   },
   {
     "puhekieli": "vessa",
     "kirjakieli": "WC / käymälä",
     "english": "toilet",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အိမ်သာ"
+    }
   },
   {
     "puhekieli": "partsi",
     "kirjakieli": "parveke",
     "english": "balcony",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "လသာဆောင်"
+    }
   },
   {
     "puhekieli": "porukat",
     "kirjakieli": "vanhemmat",
     "english": "parents",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "မိဘများ"
+    }
   },
   {
     "puhekieli": "rillit",
     "kirjakieli": "silmälasit",
     "english": "glasses",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "မျက်မှန်"
+    }
   },
   {
     "puhekieli": "luuri",
     "kirjakieli": "puhelin",
     "english": "phone",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ဖုန်း"
+    }
   },
   {
     "puhekieli": "känny",
     "kirjakieli": "matkapuhelin",
     "english": "mobile phone",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "မိုဘိုင်းဖုန်း"
+    }
   },
   {
     "puhekieli": "kone",
     "kirjakieli": "tietokone",
     "english": "computer",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ကွန်ပျူတာ"
+    }
   },
   {
     "puhekieli": "netti",
     "kirjakieli": "verkko / internet",
     "english": "internet",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အင်တာနက်"
+    }
   },
   {
     "puhekieli": "olla duunissa",
     "kirjakieli": "olla töissä",
     "english": "to work somewhere",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "တစ်နေရာတွင် အလုပ်လုပ်ရန်"
+    }
   },
   {
     "puhekieli": "duunikaveri",
     "kirjakieli": "työkaveri",
     "english": "colleague",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "လုပ်ဖော်ကိုင်ဖက်"
+    }
   },
   {
     "puhekieli": "toimari",
     "kirjakieli": "toimitusjohtaja",
     "english": "CEO",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အမှုဆောင်အရာရှိချုပ်"
+    }
   },
   {
     "puhekieli": "duunata",
     "kirjakieli": "tehdä / puuhata",
     "english": "to do / be up to",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "လုပ်ရန် / ဘာလုပ်နေသည်"
+    }
   },
   {
     "puhekieli": "proggis",
     "kirjakieli": "projekti",
     "english": "project",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ပရောဂျက်"
+    }
   },
   {
     "puhekieli": "dedis",
     "kirjakieli": "määräaika",
     "english": "deadline",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "deadline/ နောက်ဆုံးသတ်မှတ်ချိန်"
+    }
   },
   {
     "puhekieli": "vetää",
     "kirjakieli": "syödä / juoda / esittää",
     "english": "to eat / drink / perform",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "စားရန် / သောက်ရန် / ဖျော်ဖြေရန်"
+    }
   },
   {
     "puhekieli": "vetästä",
     "kirjakieli": "syödä / juoda",
     "english": "to eat / drink quickly",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "မြန်မြန်စားရန် / မြန်မြန်သောက်ရန်"
+    }
   },
   {
     "puhekieli": "meno",
     "kirjakieli": "tunnelma / tapahtuma",
     "english": "vibe / action",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ပွဲအခြေအနေ / အငွေ့အသက်"
+    }
   },
   {
     "puhekieli": "keikka",
     "kirjakieli": "konsertti / esitys",
     "english": "gig / concert",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ဂီတဖျော်ဖြေပွဲ"
+    }
   },
   {
     "puhekieli": "kalja",
     "kirjakieli": "olut",
     "english": "beer",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ဘီယာ"
+    }
   },
   {
     "puhekieli": "tuli",
     "kirjakieli": "sytytin / tuli",
     "english": "lighter / fire",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "မီးခြစ် / မီး"
+    }
   },
   {
     "puhekieli": "sammua",
     "kirjakieli": "menettää tajunta alkoholista",
-    "english": "to pass out",
-    "category": "general_puhekieli_2"
+    "english": "to pass out from alcohol",
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "အရက်မူးပြီး သတိလစ်ရန်"
+    }
   },
   {
     "puhekieli": "semi",
     "kirjakieli": "melko / aika",
     "english": "quite / pretty",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "semi hyvä = တော်တော်လေး ကောင်းတယ်; semi vaikea = နည်းနည်း ခက်တယ် / အတော်အတန် ခက်တယ်"
+    }
   },
   {
     "puhekieli": "jees",
     "kirjakieli": "hyvä / sopii",
     "english": "good / okay",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ကောင်းတယ် / အဆင်ပြေတယ်"
+    }
   },
   {
     "puhekieli": "heittää läppää",
     "kirjakieli": "vitsailla",
     "english": "to joke",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ဟာသပြောရန်"
+    }
   },
   {
     "puhekieli": "liftata",
     "kirjakieli": "liftata / matkustaa kyydillä",
     "english": "to hitchhike",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ကားတားစီးရန်"
+    }
   },
   {
     "puhekieli": "kelata",
     "kirjakieli": "ajatella",
     "english": "to think",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "စဉ်းစားရန်"
+    }
   },
   {
     "puhekieli": "tajuta",
     "kirjakieli": "ymmärtää",
     "english": "to understand",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "နားလည်ရန်"
+    }
   },
   {
     "puhekieli": "tapittaa",
     "kirjakieli": "tuijottaa",
     "english": "to stare",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "စိုက်ကြည့်ရန်"
+    }
   },
   {
     "puhekieli": "heittää",
     "kirjakieli": "lainata / tarjota / arvata",
     "english": "to lend / offer / guess",
-    "category": "general_puhekieli_2"
+    "category": "general_puhekieli_2",
+    "definitions": {
+      "my": "ချေးပေးရန် / ကမ်းလှမ်းရန် / ခန့်မှန်းရန်"
+    }
   }
 ]
