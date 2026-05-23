@@ -1025,4 +1025,4 @@ function registerServiceWorker() {
 }
 
 init();
-//registerServiceWorker();
+registerServiceWorker();
