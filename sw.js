@@ -1,14 +1,10 @@
-const CACHE_NAME = "realfinnish-v2";
+const CACHE_NAME = "realfinnish-v3";
 const APP_ASSETS = [
   "./",
   "./index.html",
   "./style.css",
   "./app.js",
   "./manifest.json",
-  "./data/puhekieli.json",
-  "./data/puhekieli_2.json",
-  "./data/helsinki_slang.json",
-  "./data/language-notes.json",
   "./pic/facebook-share.png",
   "./pic/linkedin-share.png",
   "./pic/messenger-share.png",
@@ -44,6 +40,13 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+
+  const url = new URL(event.request.url);
+
+  if (url.origin !== self.location.origin || url.pathname.includes("/data/")) {
+    event.respondWith(fetch(event.request));
+    return;
+  }
 
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {

@@ -1,4 +1,16 @@
-const categories = [
+const googleSheet = {
+  csvBaseUrl:
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDvwwaprrPYJpJii_fJeG6tcqbaN6RhHel6EL5dVsRsoDL6GEwPjAD2QDdzBbuxc6CcB-DGFesbgST/pub",
+  sheetGids: {
+    lessons: "0",
+    puhekieli: "897991474",
+    puhekieli_2: "2037559126",
+    helsinki_slang: "1355912983",
+    language_notes: "689568316"
+  }
+};
+
+const fallbackCategories = [
   {
     id: "puhekieli",
     titleKey: "categoryPuhekieliTitle",
@@ -31,6 +43,8 @@ const categories = [
     enabled: false
   }
 ];
+
+let categories = [...fallbackCategories];
 
 const correctAnswerDelayMs = 650;
 const languageStorageKey = "realfinnish.language";
@@ -272,6 +286,16 @@ function init() {
   renderBestScore();
   bindEvents();
   showScreen("home");
+  loadCategoriesFromSheet()
+    .then((sheetCategories) => {
+      if (!sheetCategories.length) return;
+      categories = sheetCategories;
+      renderCategories();
+      renderBestScore();
+    })
+    .catch((error) => {
+      console.error("Google Sheets lesson index could not be loaded.", error);
+    });
 }
 
 function bindEvents() {
@@ -296,6 +320,40 @@ function bindEvents() {
   els.homeButton.addEventListener("click", () => showScreen("home"));
 }
 
+async function loadCategoriesFromSheet() {
+  const rows = await fetchSheetRowsByGid(googleSheet.sheetGids.lessons);
+
+  return rows
+    .filter((row) => row.id)
+    .sort((a, b) => Number(a.sort_order || 0) - Number(b.sort_order || 0))
+    .map((row) => {
+      const sheetName = row.sheet_name?.trim();
+
+      return {
+        id: row.id.trim(),
+        titleKey: row.title_key?.trim(),
+        descriptionKey: row.description_key?.trim(),
+        badgeKey: row.badge_key?.trim(),
+        title: {
+          en: row.title_en?.trim(),
+          my: row.title_my?.trim()
+        },
+        description: {
+          en: row.description_en?.trim(),
+          my: row.description_my?.trim()
+        },
+        badge: {
+          en: row.badge_en?.trim(),
+          my: row.badge_my?.trim()
+        },
+        sheetName,
+        gid: row.gid?.trim() || googleSheet.sheetGids[sheetName],
+        dataUrl: row.current_data_url?.trim() || row.source_file?.trim(),
+        enabled: parseBoolean(row.enabled)
+      };
+    });
+}
+
 function getInitialLanguage() {
   try {
     const savedLanguage = localStorage.getItem(languageStorageKey);
@@ -303,6 +361,94 @@ function getInitialLanguage() {
   } catch {
     return defaultLanguage;
   }
+}
+
+function parseBoolean(value) {
+  return ["true", "yes", "1"].includes(String(value || "").trim().toLowerCase());
+}
+
+function getLocalizedValue(value, fallbackKey) {
+  if (!value) return fallbackKey ? t(fallbackKey) : "";
+  if (typeof value === "string") return value;
+  return value[state.language] || value[defaultLanguage] || "";
+}
+
+function getSheetCsvUrl(gid) {
+  const url = new URL(googleSheet.csvBaseUrl);
+  url.searchParams.set("gid", gid);
+  url.searchParams.set("single", "true");
+  url.searchParams.set("output", "csv");
+  url.searchParams.set("v", String(Date.now()));
+  return url.toString();
+}
+
+async function fetchSheetRowsByGid(gid) {
+  if (!gid) throw new Error("Missing Google Sheet gid.");
+
+  const response = await fetch(getSheetCsvUrl(gid), { cache: "no-store" });
+  if (!response.ok) throw new Error(`Could not load Google Sheet gid ${gid}.`);
+
+  return csvToRows(await response.text());
+}
+
+function csvToRows(csvText) {
+  const table = parseCsv(csvText.replace(/^\uFEFF/, ""));
+  if (!table.length) return [];
+
+  const headers = table[0].map((header) => header.trim());
+
+  return table.slice(1).map((row) =>
+    headers.reduce((record, header, index) => {
+      record[header] = row[index] || "";
+      return record;
+    }, {})
+  );
+}
+
+function parseCsv(csvText) {
+  const rows = [];
+  let row = [];
+  let value = "";
+  let inQuotes = false;
+
+  for (let index = 0; index < csvText.length; index += 1) {
+    const char = csvText[index];
+    const nextChar = csvText[index + 1];
+
+    if (char === '"') {
+      if (inQuotes && nextChar === '"') {
+        value += '"';
+        index += 1;
+      } else {
+        inQuotes = !inQuotes;
+      }
+      continue;
+    }
+
+    if (char === "," && !inQuotes) {
+      row.push(value);
+      value = "";
+      continue;
+    }
+
+    if ((char === "\n" || char === "\r") && !inQuotes) {
+      if (char === "\r" && nextChar === "\n") index += 1;
+      row.push(value);
+      rows.push(row);
+      row = [];
+      value = "";
+      continue;
+    }
+
+    value += char;
+  }
+
+  if (value || row.length) {
+    row.push(value);
+    rows.push(row);
+  }
+
+  return rows.filter((items) => items.some((item) => item.trim()));
 }
 
 function t(key, replacements = {}) {
@@ -418,9 +564,7 @@ async function openLanguageNotes() {
 
   try {
     if (!state.languageNotes) {
-      const response = await fetch("data/language-notes.json");
-      if (!response.ok) throw new Error("Could not load language notes.");
-      state.languageNotes = await response.json();
+      state.languageNotes = await loadLanguageNotes();
     }
 
     renderLanguageNotes(state.languageNotes);
@@ -445,7 +589,7 @@ function renderLanguageNotes(notes) {
     item.innerHTML = `
       <h3>${localizedNote.title}</h3>
       <p>${localizedNote.body}</p>
-      <p><strong>${t("exampleLabel")}</strong> <code>${note.example}</code></p>
+      <p><strong>${t("exampleLabel")}</strong> <code>${localizedNote.example || note.example}</code></p>
       <a href="${note.sourceUrl}" target="_blank" rel="noreferrer">${t("sourceLabel")} ${note.sourceName}</a>
     `;
     els.notesList.append(item);
@@ -455,7 +599,8 @@ function renderLanguageNotes(notes) {
 function getLocalizedNote(note) {
   return note.translations?.[state.language] || {
     title: note.title,
-    body: note.body
+    body: note.body,
+    example: note.example
   };
 }
 
@@ -473,11 +618,15 @@ function renderCategories() {
     button.className = "category-card";
     button.type = "button";
     button.disabled = !category.enabled;
-    button.innerHTML = `
-      <h3>${getCategoryTitle(category)}</h3>
-      <p>${t(category.descriptionKey)}</p>
-      <span class="pill">${t(category.badgeKey)}</span>
-    `;
+
+    const title = document.createElement("h3");
+    title.textContent = getCategoryTitle(category);
+    const description = document.createElement("p");
+    description.textContent = getCategoryDescription(category);
+    const badge = document.createElement("span");
+    badge.className = "pill";
+    badge.textContent = getCategoryBadge(category);
+    button.append(title, description, badge);
 
     if (category.enabled) {
       button.addEventListener("click", () => loadCategory(category.id));
@@ -488,7 +637,15 @@ function renderCategories() {
 }
 
 function getCategoryTitle(category) {
-  return t(category.titleKey);
+  return getLocalizedValue(category.title, category.titleKey);
+}
+
+function getCategoryDescription(category) {
+  return getLocalizedValue(category.description, category.descriptionKey);
+}
+
+function getCategoryBadge(category) {
+  return getLocalizedValue(category.badge, category.badgeKey);
 }
 
 async function loadCategory(categoryId) {
@@ -499,10 +656,7 @@ async function loadCategory(categoryId) {
   els.screenTitle.textContent = getCategoryTitle(category);
 
   try {
-    const response = await fetch(category.dataUrl);
-    if (!response.ok) throw new Error(`Could not load ${category.dataUrl}`);
-
-    state.allWords = await response.json();
+    state.allWords = await loadCategoryWords(category);
     state.words = [];
     renderSetup();
     showScreen("setup");
@@ -516,6 +670,69 @@ async function loadCategory(categoryId) {
     showScreen("study");
     console.error(error);
   }
+}
+
+async function loadLanguageNotes() {
+  try {
+    const rows = await fetchSheetRowsByGid(googleSheet.sheetGids.language_notes);
+    return sheetRowsToLanguageNotes(rows);
+  } catch (error) {
+    console.error("Google Sheets language notes could not be loaded.", error);
+  }
+
+  const response = await fetch("data/language-notes.json");
+  if (!response.ok) throw new Error("Could not load language notes.");
+  return response.json();
+}
+
+function sheetRowsToLanguageNotes(rows) {
+  return rows
+    .filter((row) => row.title_en || row.body_en)
+    .map((row) => ({
+      title: row.title_en?.trim() || "",
+      body: row.body_en?.trim() || "",
+      example: row.example_en?.trim() || "",
+      sourceName: row.source_name?.trim() || "",
+      sourceUrl: row.source_url?.trim() || "",
+      translations: {
+        my: {
+          title: row.title_my?.trim() || "",
+          body: row.body_my?.trim() || "",
+          example: row.example_my?.trim() || ""
+        }
+      }
+    }));
+}
+
+async function loadCategoryWords(category) {
+  if (category.gid) {
+    return sheetRowsToWords(await fetchSheetRowsByGid(category.gid));
+  }
+
+  if (!category.dataUrl) throw new Error(`Missing lesson source for ${category.id}.`);
+
+  const response = await fetch(category.dataUrl);
+  if (!response.ok) throw new Error(`Could not load ${category.dataUrl}`);
+
+  return response.json();
+}
+
+function sheetRowsToWords(rows) {
+  return rows
+    .filter((row) => row.puhekieli || row.kirjakieli || row.english || row.my)
+    .map((row) => {
+      const word = {
+        puhekieli: row.puhekieli?.trim() || "",
+        kirjakieli: row.kirjakieli?.trim() || "",
+        english: row.english?.trim() || "",
+        definitions: {
+          my: row.my?.trim() || ""
+        }
+      };
+
+      if (row.category?.trim()) word.category = row.category.trim();
+      return word;
+    });
 }
 
 function renderSetup() {

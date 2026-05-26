@@ -1,0 +1,86 @@
+﻿puhekieli	kirjakieli	english	my	category
+milli	millimetri	millimeter	မီလီမီတာ	general_puhekieli_2
+sentti	senttimetri	centimeter	စင်တီမီတာ	general_puhekieli_2
+kilo	kilogramma	kilogram	ကီလိုဂရမ်	general_puhekieli_2
+tonni	tonni / tuhat	thousand	 တစ်ထောင်	general_puhekieli_2
+mina	minuutti	minute	မိနစ်	general_puhekieli_2
+vartti	15 minuuttia	quarter of an hour	တစ်နာရီ၏ လေးပုံတစ်ပုံ	general_puhekieli_2
+yhelt	yhdeltä	at one o’clock	တစ်နာရီမှာ	general_puhekieli_2
+kahelt	kahdelta	at two o’clock	နှစ်နာရီမှာ	general_puhekieli_2
+kolmelt	kolmelta	at three o’clock	သုံးနာရီမှာ	general_puhekieli_2
+neljält	neljältä	at four o'clock	လေးနာရီမှာ	general_puhekieli_2
+viielt	viideltä	at five	ငါးနာရီမှာ	general_puhekieli_2
+kuuelt	kuudelta	at six o’clock	ခြောက်နာရီမှာ	general_puhekieli_2
+seiskalt	seitsemältä	at seven o’clock	ခုနစ်နာရီမှာ	general_puhekieli_2
+kasilt	kahdeksalta	at eight o’clock	ရှစ်နာရီမှာ	general_puhekieli_2
+ysilt	yhdeksältä	at nine o’clock	ကိုးနာရီမှာ	general_puhekieli_2
+kybält	kymmeneltä	at ten o’clock	ဆယ်နာရီမှာ	general_puhekieli_2
+kymppi	kymmenen euroa	ten euros	ယူရို တစ်ဆယ်	general_puhekieli_2
+satanen	sata euroa	hundred euros	ယူရို တစ်ရာ	general_puhekieli_2
+käppäillä	kävellä	to walk / stroll	လမ်းလျှောက်ရန် / အေးအေးဆေးဆေး လမ်းလျှောက်ရန်	general_puhekieli_2
+motari	moottoritie	motorway / freeway	အမြန်လမ်း	general_puhekieli_2
+lähiö	lähiö	suburb	မြို့ပြင်ရပ်ကွက်	general_puhekieli_2
+enkku	englanti	English language	အင်္ဂလိပ်ဘာသာ	general_puhekieli_2
+matikka	matematiikka	mathematics	သင်္ချာ	general_puhekieli_2
+hissa	historia	history	သမိုင်း	general_puhekieli_2
+bilsa	biologia	biology	ဇီဝဗေဒ	general_puhekieli_2
+kemma	kemia	chemistry	ဓာတုဗေဒ	general_puhekieli_2
+köksä	kotitalous	home economics	အိမ်တွင်းစီးပွားရေး / အိမ်မှုသင်ခန်းစာ	general_puhekieli_2
+filsa	filosofia	philosophy	ဒဿနိကဗေဒ	general_puhekieli_2
+mantsa	maantieto	geography	ပထဝီဝင်	general_puhekieli_2
+äikkä	äidinkieli	mother tongue / Finnish class	မိခင်ဘာသာ / Finnish ဘာသာအတန်း	general_puhekieli_2
+liikka	liikunta	physical education	ကိုယ်ကာယပညာ	general_puhekieli_2
+maikka	opettaja	teacher	ဆရာ / ဆရာမ	general_puhekieli_2
+ope	opettaja	teacher	ဆရာ / ဆရာမ	general_puhekieli_2
+reksi	rehtori	principal	ကျောင်းအုပ်	general_puhekieli_2
+lukkari	lukujärjestys	schedule / timetable	အချိန်ဇယား	general_puhekieli_2
+välkkä	välitunti	recess / break	နားချိန်	general_puhekieli_2
+hypäri	hyppytunti	free period	အလွတ်ချိန်	general_puhekieli_2
+ruokis	ruokatunti / ruokatauko	lunch break	နေ့လယ်စာနားချိန်	general_puhekieli_2
+jenkkifutis	amerikkalainen jalkapallo	American football	အမေရိကန်ဘောလုံး	general_puhekieli_2
+kiekko	jääkiekko	ice hockey	ရေခဲဟော်ကီ	general_puhekieli_2
+säbä	salibandy	floorball/floor hockey	floor hockey အားကစား	general_puhekieli_2
+sulkis	sulkapallo	badminton	ကြက်တောင်ရိုက်	general_puhekieli_2
+treenata	harjoitella	to train / work out	လေ့ကျင့်ရန် / အားကစားလုပ်ရန်	general_puhekieli_2
+käydä salilla	käydä kuntosalilla	to go to the gym	gym သို့ သွားရန်	general_puhekieli_2
+käydä lenkillä	juosta / lenkkeillä	to go jogging	အပြေးလေ့ကျင့်ရန်	general_puhekieli_2
+ihastus	ihastus	crush	crush / စိတ်ဝင်စားနေသူ	general_puhekieli_2
+treffit	treffit	date	ချိန်းတွေ့ခြင်း	general_puhekieli_2
+tuttu	tuttu	acquaintance	အသိအကျွမ်း	general_puhekieli_2
+kaveri	ystävä / kaveri	friend	သူငယ်ချင်း	general_puhekieli_2
+kamu	kaveri	friend	သူငယ်ချင်း	general_puhekieli_2
+olla messissä	olla mukana	to be along / join	အတူပါရန် / ပါဝင်ရန်	general_puhekieli_2
+tulla messiin	tulla mukaan	to come along	အတူလိုက်လာရန်	general_puhekieli_2
+ottaa messiin	ottaa mukaan	to bring along	အတူယူလာရန်	general_puhekieli_2
+piipahtaa	käväistä	to swing by	ခဏဝင်သွားရန် / ခဏဝင်လည်ရန်	general_puhekieli_2
+kimppakämppä	yhteisasunto	shared apartment	မျှဝေငှားနေသော တိုက်ခန်း	general_puhekieli_2
+solu	soluasunto	shared student apartment	ကျောင်းသားများ မျှဝေငှားနေသော အခန်း	general_puhekieli_2
+vessa	WC / käymälä	toilet	အိမ်သာ	general_puhekieli_2
+partsi	parveke	balcony	လသာဆောင်	general_puhekieli_2
+porukat	vanhemmat	parents	မိဘများ	general_puhekieli_2
+rillit	silmälasit	glasses	မျက်မှန်	general_puhekieli_2
+luuri	puhelin	phone	ဖုန်း	general_puhekieli_2
+känny	matkapuhelin	mobile phone	မိုဘိုင်းဖုန်း	general_puhekieli_2
+kone	tietokone	computer	ကွန်ပျူတာ	general_puhekieli_2
+netti	verkko / internet	internet	အင်တာနက်	general_puhekieli_2
+olla duunissa	olla töissä	to work somewhere	တစ်နေရာတွင် အလုပ်လုပ်ရန်	general_puhekieli_2
+duunikaveri	työkaveri	colleague	လုပ်ဖော်ကိုင်ဖက်	general_puhekieli_2
+toimari	toimitusjohtaja	CEO	အမှုဆောင်အရာရှိချုပ်	general_puhekieli_2
+duunata	tehdä / puuhata	to do / be up to	လုပ်ရန် / ဘာလုပ်နေသည်	general_puhekieli_2
+proggis	projekti	project	ပရောဂျက်	general_puhekieli_2
+dedis	määräaika	deadline	deadline/ နောက်ဆုံးသတ်မှတ်ချိန်	general_puhekieli_2
+vetää	syödä / juoda / esittää	to eat / drink / perform	စားရန် / သောက်ရန် / ဖျော်ဖြေရန်	general_puhekieli_2
+vetästä	syödä / juoda	to eat / drink quickly	မြန်မြန်စားရန် / မြန်မြန်သောက်ရန်	general_puhekieli_2
+meno	tunnelma / tapahtuma	vibe / action	ပွဲအခြေအနေ / အငွေ့အသက်	general_puhekieli_2
+keikka	konsertti / esitys	gig / concert	ဂီတဖျော်ဖြေပွဲ	general_puhekieli_2
+kalja	olut	beer	ဘီယာ	general_puhekieli_2
+tuli	sytytin / tuli	lighter / fire	မီးခြစ် / မီး	general_puhekieli_2
+sammua	menettää tajunta alkoholista	to pass out from alcohol	အရက်မူးပြီး သတိလစ်ရန်	general_puhekieli_2
+semi	melko / aika	quite / pretty	semi hyvä = တော်တော်လေး ကောင်းတယ်; semi vaikea = နည်းနည်း ခက်တယ် / အတော်အတန် ခက်တယ်	general_puhekieli_2
+jees	hyvä / sopii	good / okay	ကောင်းတယ် / အဆင်ပြေတယ်	general_puhekieli_2
+heittää läppää	vitsailla	to joke	ဟာသပြောရန်	general_puhekieli_2
+liftata	liftata / matkustaa kyydillä	to hitchhike	ကားတားစီးရန်	general_puhekieli_2
+kelata	ajatella	to think	စဉ်းစားရန်	general_puhekieli_2
+tajuta	ymmärtää	to understand	နားလည်ရန်	general_puhekieli_2
+tapittaa	tuijottaa	to stare	စိုက်ကြည့်ရန်	general_puhekieli_2
+heittää	lainata / tarjota / arvata	to lend / offer / guess	ချေးပေးရန် / ကမ်းလှမ်းရန် / ခန့်မှန်းရန်	general_puhekieli_2
