@@ -810,15 +810,27 @@ function renderLearnedTable(learnedWords) {
 
   learnedWords.forEach((word) => {
     const row = document.createElement("tr");
-    const spokenCell = document.createElement("td");
-    const standardCell = document.createElement("td");
     const definitionCell = document.createElement("td");
+    const hasDifferentForms = hasRegisterDifference(word);
 
-    spokenCell.textContent = getFinnishTarget(word);
-    standardCell.textContent = hasRegisterDifference(word) ? word.kirjakieli || "" : "";
     definitionCell.textContent = getWordDefinition(word);
 
-    row.append(spokenCell, standardCell, definitionCell);
+    if (hasDifferentForms) {
+      const spokenCell = document.createElement("td");
+      const standardCell = document.createElement("td");
+
+      spokenCell.textContent = getFinnishTarget(word);
+      standardCell.textContent = word.kirjakieli || "";
+      row.append(spokenCell, standardCell, definitionCell);
+    } else {
+      const finnishCell = document.createElement("td");
+
+      finnishCell.colSpan = 2;
+      finnishCell.className = "is-merged-finnish";
+      finnishCell.textContent = getFinnishTarget(word);
+      row.append(finnishCell, definitionCell);
+    }
+
     els.learnedTableBody.append(row);
   });
 }

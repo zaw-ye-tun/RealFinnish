@@ -769,6 +769,11 @@ main {
   color: var(--muted);
 }
 
+.learned-table td.is-merged-finnish {
+  color: var(--text);
+  font-weight: 750;
+}
+
 .app-footer {
   padding: 12px 18px calc(14px + env(safe-area-inset-bottom));
   color: var(--muted);
