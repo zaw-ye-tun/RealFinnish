@@ -131,6 +131,8 @@ const translations = {
     whyButton: "Why?",
     words: "{count} words",
     wordsToLearn: "Words to learn",
+    answerPlaceholderFinnish: "Type Finnish...",
+    writeFinnish: "Write the Finnish word",
     writeSpokenFinnish: "Write the spoken Finnish",
     yourAnswer: "Your answer"
   },
@@ -213,6 +215,8 @@ const translations = {
     whyButton: "ဘာကြောင့်?",
     words: "စကားလုံး {count} လုံး",
     wordsToLearn: "လေ့လာမည့် စကားလုံး",
+    answerPlaceholderFinnish: "Finnish ကို ရိုက်ပါ...",
+    writeFinnish: "Finnish ကို ရေးပါ",
     writeSpokenFinnish: "စကားပြော Finnish ကို ရေးပါ",
     yourAnswer: "သင့်အဖြေ"
   }
@@ -267,6 +271,7 @@ const els = {
   progressText: document.querySelector("#progressText"),
   scoreText: document.querySelector("#scoreText"),
   progressBar: document.querySelector("#progressBar"),
+  practicePrompt: document.querySelector("#practicePrompt"),
   practiceTitle: document.querySelector("#practiceTitle"),
   englishHint: document.querySelector("#englishHint"),
   answerForm: document.querySelector("#answerForm"),
@@ -805,11 +810,15 @@ function renderLearnedTable(learnedWords) {
 
   learnedWords.forEach((word) => {
     const row = document.createElement("tr");
-    ["puhekieli", "kirjakieli", "definition"].forEach((key) => {
-      const cell = document.createElement("td");
-      cell.textContent = key === "definition" ? getWordDefinition(word) : word[key] || "";
-      row.append(cell);
-    });
+    const spokenCell = document.createElement("td");
+    const standardCell = document.createElement("td");
+    const definitionCell = document.createElement("td");
+
+    spokenCell.textContent = getFinnishTarget(word);
+    standardCell.textContent = hasRegisterDifference(word) ? word.kirjakieli || "" : "";
+    definitionCell.textContent = getWordDefinition(word);
+
+    row.append(spokenCell, standardCell, definitionCell);
     els.learnedTableBody.append(row);
   });
 }
@@ -821,11 +830,27 @@ function renderStudyList() {
   state.words.forEach((word, index) => {
     const item = document.createElement("article");
     item.className = "word-card";
-    item.innerHTML = `
-      <strong>${index + 1}. ${word.puhekieli}</strong>
-      <span>${t("standardFinnishLabel")} <em>${word.kirjakieli}</em></span>
-      <span>${t("definitionLabel")}: <em>${getWordDefinition(word)}</em></span>
-    `;
+
+    const title = document.createElement("strong");
+    title.textContent = `${index + 1}. ${getFinnishTarget(word)}`;
+    item.append(title);
+
+    if (hasRegisterDifference(word)) {
+      const standard = document.createElement("span");
+      const standardValue = document.createElement("em");
+      standard.append(t("standardFinnishLabel"), " ");
+      standardValue.textContent = word.kirjakieli;
+      standard.append(standardValue);
+      item.append(standard);
+    }
+
+    const definition = document.createElement("span");
+    const definitionValue = document.createElement("em");
+    definition.append(`${t("definitionLabel")}: `);
+    definitionValue.textContent = getWordDefinition(word);
+    definition.append(definitionValue);
+    item.append(definition);
+
     els.wordList.append(item);
   });
 }
@@ -852,8 +877,10 @@ function renderCurrentWord(options = {}) {
   els.progressText.textContent = `${state.currentIndex + 1}/${state.words.length}`;
   els.scoreText.textContent = t("score", { score: state.score });
   els.progressBar.style.width = `${progress}%`;
-  els.practiceTitle.textContent = word.kirjakieli;
-  els.englishHint.textContent = getWordDefinition(word);
+  els.practicePrompt.textContent = getPracticePromptLabel(word);
+  els.practiceTitle.textContent = getPracticeCue(word);
+  els.englishHint.textContent = getPracticeHint(word);
+  els.answerInput.placeholder = getAnswerPlaceholder(word);
   if (options.keepAnswer) return;
 
   if (!options.keepAnswer) els.answerInput.value = "";
@@ -881,7 +908,9 @@ function handleSubmit(event) {
     return;
   }
 
-  if (isCorrectAnswer(userAnswer, word.puhekieli)) {
+  const correctAnswer = getFinnishTarget(word);
+
+  if (isCorrectAnswer(userAnswer, correctAnswer)) {
     state.score += 1;
     state.answered = true;
     saveLearnedWord(state.activeCategory.id, word);
@@ -894,7 +923,7 @@ function handleSubmit(event) {
     state.answered = true;
     els.answerInput.classList.add("is-wrong");
     els.answerInput.disabled = true;
-    showFeedback(t("goodTry", { answer: word.puhekieli }), "wrong");
+    showFeedback(t("goodTry", { answer: correctAnswer }), "wrong");
     shakeInput();
     els.submitButton.classList.add("is-hidden");
     els.nextButton.classList.remove("is-hidden");
@@ -1011,6 +1040,45 @@ function getCurrentWord() {
 
 function getWordDefinition(word) {
   return word.definitions?.[state.language] || word.english || "";
+}
+
+function getFinnishTarget(word) {
+  return word.puhekieli || word.kirjakieli || "";
+}
+
+function hasRegisterDifference(word) {
+  const spoken = normalizeAnswer(word.puhekieli || "");
+  const standard = normalizeAnswer(word.kirjakieli || "");
+
+  if (!spoken || !standard) return false;
+  return spoken !== standard;
+}
+
+function getPracticePromptLabel(word) {
+  return hasRegisterDifference(word) ? t("writeSpokenFinnish") : t("writeFinnish");
+}
+
+function getAnswerPlaceholder(word) {
+  return hasRegisterDifference(word) ? t("answerPlaceholder") : t("answerPlaceholderFinnish");
+}
+
+function getPracticeCue(word) {
+  if (hasRegisterDifference(word)) {
+    return word.kirjakieli || getWordDefinition(word) || getFinnishTarget(word);
+  }
+
+  return getWordDefinition(word) || word.english || getFinnishTarget(word);
+}
+
+function getPracticeHint(word) {
+  if (hasRegisterDifference(word)) return getWordDefinition(word);
+
+  const definition = getWordDefinition(word);
+  if (state.language !== defaultLanguage && word.english && normalizeAnswer(word.english) !== normalizeAnswer(definition)) {
+    return word.english;
+  }
+
+  return "";
 }
 
 function isCorrectAnswer(userAnswer, correctAnswer) {
