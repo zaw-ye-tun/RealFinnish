@@ -1,4 +1,4 @@
-const CACHE_NAME = "realfinnish-v4";
+const CACHE_NAME = "realfinnish-v5";
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -45,6 +45,23 @@ self.addEventListener("fetch", (event) => {
 
   if (url.origin !== self.location.origin || url.pathname.includes("/data/")) {
     event.respondWith(fetch(event.request));
+    return;
+  }
+
+  if (url.pathname.endsWith("/") || url.pathname.endsWith(".html") || url.pathname.endsWith(".js") || url.pathname.endsWith(".css")) {
+    event.respondWith(
+      fetch(event.request)
+        .then((networkResponse) => {
+          const responseToCache = networkResponse.clone();
+
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
+
+          return networkResponse;
+        })
+        .catch(() => caches.match(event.request))
+    );
     return;
   }
 
