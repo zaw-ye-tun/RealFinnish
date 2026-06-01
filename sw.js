@@ -1,4 +1,4 @@
-const CACHE_NAME = "realfinnish-v3";
+const CACHE_NAME = "realfinnish-v4";
 const APP_ASSETS = [
   "./",
   "./index.html",

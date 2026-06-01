@@ -1066,24 +1066,33 @@ function hasRegisterDifference(word) {
   return spoken !== standard;
 }
 
+function canPracticeRegisterConversion(word) {
+  const standard = word.kirjakieli || "";
+  const target = getFinnishTarget(word);
+
+  return hasRegisterDifference(word) && standard && !isAcceptedAnswerValue(standard, target);
+}
+
 function getPracticePromptLabel(word) {
-  return hasRegisterDifference(word) ? t("writeSpokenFinnish") : t("writeFinnish");
+  return canPracticeRegisterConversion(word) ? t("writeSpokenFinnish") : t("writeFinnish");
 }
 
 function getAnswerPlaceholder(word) {
-  return hasRegisterDifference(word) ? t("answerPlaceholder") : t("answerPlaceholderFinnish");
+  return canPracticeRegisterConversion(word) ? t("answerPlaceholder") : t("answerPlaceholderFinnish");
 }
 
 function getPracticeCue(word) {
-  if (hasRegisterDifference(word)) {
-    return word.kirjakieli || getWordDefinition(word) || getFinnishTarget(word);
+  const target = getFinnishTarget(word);
+
+  if (canPracticeRegisterConversion(word)) {
+    return word.kirjakieli;
   }
 
-  return getWordDefinition(word) || word.english || getFinnishTarget(word);
+  return getNonAnswerCue([getWordDefinition(word), word.english], target) || target;
 }
 
 function getPracticeHint(word) {
-  if (hasRegisterDifference(word)) return getWordDefinition(word);
+  if (canPracticeRegisterConversion(word)) return getWordDefinition(word);
 
   const definition = getWordDefinition(word);
   if (state.language !== defaultLanguage && word.english && normalizeAnswer(word.english) !== normalizeAnswer(definition)) {
@@ -1094,8 +1103,18 @@ function getPracticeHint(word) {
 }
 
 function isCorrectAnswer(userAnswer, correctAnswer) {
-  const normalizedUserAnswer = normalizeAnswer(userAnswer);
-  return getAcceptedAnswers(correctAnswer).some((answer) => answer === normalizedUserAnswer);
+  return isAcceptedAnswerValue(userAnswer, correctAnswer);
+}
+
+function isAcceptedAnswerValue(value, correctAnswer) {
+  const normalizedValue = normalizeAnswer(value);
+  if (!normalizedValue) return false;
+
+  return getAcceptedAnswers(correctAnswer).some((answer) => answer === normalizedValue);
+}
+
+function getNonAnswerCue(cues, correctAnswer) {
+  return cues.find((cue) => cue && !isAcceptedAnswerValue(cue, correctAnswer)) || "";
 }
 
 function getAcceptedAnswers(answer) {
